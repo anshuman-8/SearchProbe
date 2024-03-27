@@ -23,23 +23,25 @@ LOG_FILES = False  # Set to True to log the results to files
 class Search:
     def __init__(
         self,
-        queries: List[str],
+        web_queries: List[str],
+        yelp_query: str,
+        gmaps_query: str,
         location: str,
-        keyword: str,
         country_code: str,
         timeout: int,
         web_search: bool = True,
         yelp_search: bool = True,
-        google_business_search: bool = True,
+        gmap_search: bool = True,
     ):
-        self.queries = queries
+        self.web_queries = web_queries
+        self.yelp_query = yelp_query
+        self.gmaps_query = gmaps_query
         self.location = location
-        self.keyword = keyword
         self.country_code = country_code
         self.timeout = timeout
         self.do_web_search = web_search
         self.do_yelp_search = yelp_search
-        self.do_google_business_search = google_business_search
+        self.gmap_search = gmap_search
 
     async def web_search_ranking(
         self, bing_search: dict | None, google_search: dict | None
@@ -159,7 +161,7 @@ class Search:
         websites = []
         data = response.json()
         t_flag2 = time.time()
-        log.info(f"Bing search time: {t_flag2 - t_flag1}")
+        log.debug(f"Bing search time: {t_flag2 - t_flag1}")
 
         if LOG_FILES:
             with open("src/log_data/bing.json", "w") as f:
@@ -187,7 +189,6 @@ class Search:
         google_search_engine_id: str,
         google_api_key: str = None,
         country: str = "US",
-        site_limit: int = 10,
     ) -> List[dict] | None:
         """
         Search the web for the query using Google.\
@@ -198,7 +199,6 @@ class Search:
         - google_search_engine_id: The Google Search Engine ID to use
         - google_api_key: The Google API key to use
         - country: The country to search in, default IN
-        - site_limit: The number of sites to return, default 10
 
         langauge: en
         country: ['AU', 'CA', 'IN', 'FR', 'DE', 'JP', 'NZ', 'UK', 'US']
@@ -231,14 +231,12 @@ class Search:
 
         api_endpoint = f"https://www.googleapis.com/customsearch/v1?key={google_api_key}&cx={google_search_engine_id}"
 
-        if site_limit > 10:
-            site_limit = 10
 
-        params = {"q": search_query, "gl": country, "lr": "lang_en", "num": site_limit}
+        params = {"q": search_query, "gl": country, "lr": "lang_en", "num": 10}
 
         try:
             response = requests.get(api_endpoint, params=params, timeout=5)
-            log.info(f"Google search response code: {response.status_code}")
+            log.debug(f"Google search response code: {response.status_code}")
             response.raise_for_status()
         except Exception as e:
             log.error(f"Error on Google Search request: {e}")
@@ -247,7 +245,7 @@ class Search:
         websites = []
         data = response.json()
         t_flag2 = time.time()
-        log.info(f"Google search time: {t_flag2 - t_flag1}")
+        log.debug(f"Google search time: {t_flag2 - t_flag1}")
 
         if "error" not in data.keys():
             websites = [
@@ -410,7 +408,7 @@ class Search:
         Search for the business using Google Maps API
         """
         t_flag1 = time.time()
-        log.info(f"Starting google maps search")
+        log.info(f"\nStarting google maps search...")
         URL = "https://places.googleapis.com/v1/places:searchText"
 
         headers = {
@@ -418,7 +416,7 @@ class Search:
             "X-Goog-Api-Key": GOOGLE_MAPS_KEY,
             "X-Goog-FieldMask": "places.displayName,places.formattedAddress,places.internationalPhoneNumber,places.websiteUri,places.shortFormattedAddress,places.nationalPhoneNumber,places.rating,places.userRatingCount,places.location",
         }
-        data = {"textQuery": str(self.queries[0])}
+        data = {"textQuery": str(self.gmaps_query)}
 
         try:
             response = requests.post(URL, json=data, headers=headers)
@@ -490,27 +488,27 @@ class Search:
         """
         Parallely search the web using Google and Bing
         """
-        log.warning(f"Starting web search for {query} in {location}")
+        log.info(f"Starting web search for : | {query} | in {location}")
         t_flag1 = time.time()
         tasks = [
             self.search_google(
-                query, GOOGLE_SEARCH_ENGINE_ID, GOOGLE_API_KEY, self.country_code, site_limit=25
+                query, GOOGLE_SEARCH_ENGINE_ID, GOOGLE_API_KEY, self.country_code
             ),
-            self.search_bing(query, BING_API_KEY, self.country_code, site_limit=25),
+            self.search_bing(query, BING_API_KEY, self.country_code, site_limit=20),
         ]
 
         results = await asyncio.gather(*tasks, return_exceptions=True)
         google_results, bing_results = results
 
-        log.info(f"Google search results: {google_results}")
-        log.info(f"Bing search results: {bing_results}")
+        log.debug(f"Google search results: {google_results}")
+        log.debug(f"Bing search results: {bing_results}")
 
         # Merge the search results
         search_results = await self.web_search_ranking(bing_results, google_results)
-        log.info(f"Web search results: {search_results}")
+        log.debug(f"Web search results: {search_results}")
 
         t_flag2 = time.time()
-        log.warning(f"Web search completed in {t_flag2 - t_flag1} seconds")
+        log.info(f"\nWeb search for query: {query} completed in {t_flag2 - t_flag1} seconds")
 
         return search_results
     
@@ -557,27 +555,13 @@ class Search:
         t_flag1 = time.time()
         search_jobs = []
 
-        for query in self.queries:
+        for query in self.web_queries:
             search_jobs.append(self.single_web_search(query, self.location))
         
         search_results = await asyncio.gather(*search_jobs, return_exceptions=True)
         search_results = self.gen_search_results(search_results, max_results)
 
         t_flag2 = time.time()
-        log.warning(f"Complete Web search completed in {t_flag2 - t_flag1} seconds")
+        log.warning(f"\nComplete Web search completed in {t_flag2 - t_flag1} seconds\n")
 
         return search_results
-
-    async def search(self):
-        web_results = []
-        yelp_results = []
-        google_business_results = []
-
-        if self.do_web_search:
-            web_results = await self.search_web()
-        if self.do_yelp_search:
-            yelp_results = self.search_yelp(self.queries, self.location)
-        if self.do_google_business_search:
-            google_business_results = self.search_google_business()
-
-        return web_results, yelp_results, google_business_results

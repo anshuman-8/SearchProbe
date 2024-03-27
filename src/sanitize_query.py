@@ -3,32 +3,29 @@ import os
 import json
 import logging as log
 from openai import OpenAI
+from src.utils import gpt_cost_calculator
 
 
-def gpt_cost_calculator(
-    inp_tokens: int, out_tokens: int, model: str = "gpt-3.5-turbo"
-) -> int:
+def checkFormat(response: dict)->bool:
     """
-    Calculate the cost of the GPT API call
+    Check if the response is in the correct format
+
+    response : {
+        "targets" : {type:List(str)},
+        "queries" : { type : Dict(str:str)}
+    }
     """
-    cost = 0
-    # GPT-3.5 Turbo
-    if model == "gpt-3.5-turbo":
-        input_cost = 0.0010
-        output_cost = 0.0020
-        cost = ((inp_tokens * input_cost) + (out_tokens * output_cost)) / 1000
-    # GPT-4
-    elif model == "gpt-4":
-        input_cost = 0.03
-        output_cost = 0.06
-        cost = ((inp_tokens * input_cost) + (out_tokens * output_cost)) / 1000
-    else:
-        log.error("Invalid model")
+    if "targets" not in response:
+        return False
+    # if not isinstance(response["targets"], list):
+    #     return False
+    if "queries" not in response:
+        return False
+    if "web" not in response["queries"]:
+        return False
+    return True
 
-    return cost
-
-
-def sanitize_search_query(prompt: str,open_api_key:str, location: str = None) -> json:
+def generate_search_query(prompt: str,open_api_key:str, location: str = None) -> json:
     """
     Sanitize the search query using OpenAI for web search
     """
@@ -43,43 +40,19 @@ def sanitize_search_query(prompt: str,open_api_key:str, location: str = None) ->
 
     prompt = f"{prompt.strip()}"
     client = OpenAI(api_key=open_api_key)
-    system_prompt = """Comprehend the goal, suggest the optimal solution, and provide small web search queries to assist in achieving it. The solution should be based on finding the email of best individual person or an expert, to contact for helping or completing the user goal. 
-For location-based goals, prioritize location in the first search query, and subsequently refine or slightly broaden the search as necessary to identify the most suitable expert, person, or vendor for the user's goal. Limit the number of queries, providing additional ones only for broadening the search.
-The output should be in JSON format, also saying where to search in a list, an enum (web, yelp, gmaps), where web is used for all cases .`yelp` and `gmaps` both are used for local businesses, including personal, small, and medium-sized enterprises, use both whenever location is given. keyword is the search keyword, which is used to search for the solution, without location detail.
+
+    system_prompt = """
+Comprehend the goal, and provide small web search queries to assist in achieving it. The queries should be based on finding the email of best individual person or an expert, to contact for helping or completing the user goal. First give the list of people/vendor (1 to 3) to approach for the goal (Eg- Professors, Catering Companies etc) in small strings as targets (focus on a person in 1-3 words). Then give search queries, always give search queries for `web` in a list of string(max 3), each targeting a target and slightly broaden the search(searching for their email). `yelp` and `gmaps` both are used for searching local businesses, including personal, small, and medium-sized enterprises, use whenever location is given, else give an empty string. The output should be in JSON format : "{\"targets\": [\"\",\"\"], \"queries\": {\"web\": [\"\", \"\"...], \"yelp\": \"...\", \"gmaps\": \"...\"}}
 """
+# 'yelp' search query should NOT include location in its query string (Yelp does not accept location based search query, only vendor).
 
     try:
         response = client.chat.completions.create(
-            model="gpt-3.5-turbo-1106",
+            model="ft:gpt-3.5-turbo-1106:margati:querysanitation:93po9nBX",
             response_format={"type": "json_object"},
             messages=[
                 {"role": "system", "content": f"{system_prompt}"},
-                {
-                    "role": "user",
-                    "content": "Location: Kochi, Kerala;\nGoal: I want a good chef for my anniversary party for 50 people.",
-                },
-                {
-                    "role": "system",
-                    "content": '{"solution":"Search for all event chefs in Kochi Kerala, to email and call them", "search_query":["Event Chefs in Kochi email, Kerala"], "keyword":"Event Chefs", "search":["web", "yelp"]}',
-                },
-                {
-                    "role": "user",
-                    "content": "Location: Oakland, CA;\nGoal: I want a SUV car for rent for 2 days, for a trip to Yosemite.",
-                },
-                {
-                    "role": "system",
-                    "content": '{"solution":"Search for all Car rental service in Oakland, CA, Who can give SUV and find their contacts", "search_query":["SUVs car rental in Oakland, CA emails"], "keyword":"Car Rental", "search":["web", "gmaps"]}',
-                },
-                {
-                    "role": "user",
-                    "content": "Location: - ;\nGoal: I need an research internship in UC Davis in molecular biology this summer.",
-                },
-                {
-                    "role": "system",
-                    "content": '{"solution": "Find all UC Davis molecular biology research professors, department and internship openings for emailing.", "search_query":["UC Davis faculty in molecular biology emails","UC Davis molecular biology research labs email","UC Davis research internship"], "keyword": "UC Davis Professors", "search":["web"]}',
-                },
-
-                {"role": "user", "content": f"Location: {location};\nGoal: {prompt}"},
+                {"role": "user", "content": f"Goal: {prompt}; User's location- {location};"},
             ],
         )
     except Exception as e:
@@ -87,20 +60,24 @@ The output should be in JSON format, also saying where to search in a list, an e
         exit(1)
 
     t_flag2 = time.time()
-    log.info(f"OpenAI sanitation time: {t_flag2 - t_flag1}")
+    log.info(f"OpenAI Query generation time: {t_flag2 - t_flag1}\n")
 
-    # tokens used
-    tokens_used = response.usage.total_tokens
+    # cost 
     cost = gpt_cost_calculator(
-        response.usage.prompt_tokens, response.usage.completion_tokens
+        response.usage.prompt_tokens, response.usage.completion_tokens, model='gpt-3.5-turbo-finetune'
     )
-    log.info(f"Tokens used: {tokens_used}")
     log.info(f"Cost for search query sanitation: ${cost}")
     try:
         result = json.loads(response.choices[0].message.content)
-        if isinstance(result["search_query"], str):
-            result["search_query"] = [result["search_query"]]
+        log.info(f"\nSearch Query is : {result}\n")
+        
+        if not checkFormat(result):
+            log.error(f"Invalid format of response")
+            raise Exception("Invalid format of response of query generation")
+        
     except Exception as e:
         log.error(f"Error parsing json: {e}")
-        result = {}
+        raise Exception("Error parsing json of query generation")
     return result
+
+

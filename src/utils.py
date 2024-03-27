@@ -20,23 +20,22 @@ def create_documents(
     return documents
 
 
-def document_regex_sub(
-    documents: List[Document], pattern: str, repl: str
+def document_lambda(
+    documents: List[Document], func: callable
 ) -> List[Document]:
     """Filter documents based on a regex pattern.
     ### Parameters:
     - documents: List of documents to be filtered.
-    - pattern: Regex pattern to be matched.
-    - repl: String to replace the matched pattern with.
+    - lambda : lambda function to be applied on the documents
 
     ### Returns:
-    List of documents with the regex pattern replaced by the repl string.
+    List of documents after running the lambda function on them.
     """
     texts, metadatas = [], []
     for doc in documents:
         texts.append(doc.page_content)
         metadatas.append(doc.metadata)
-    texts = [re.sub(pattern, repl, text) for text in texts]
+    texts = [func(text) for text in texts]
     return create_documents(texts, metadatas=metadatas)
 
 
@@ -88,6 +87,42 @@ def inflating_retrieval_results(results: List[dict], base_informationList: List[
 
     return inflated_results
 
+def gpt_cost_calculator(
+    inp_tokens: int, out_tokens: int, model: str = "gpt-3.5-turbo"
+) -> int:
+    """
+    Calculate the cost of the GPT API call
+
+    Model List:
+    - gpt-4
+    - gpt-3.5-turbo
+    - gpt-4-turbo-1106
+    - gpt-3.5-turbo-finetune
+    """
+    cost = 0
+    # GPT-3.5 Turbo
+    if model == "gpt-3.5-turbo":
+        input_cost = 0.5
+        output_cost = 1.5
+        cost = ((inp_tokens * input_cost) + (out_tokens * output_cost)) / 1000000
+    elif model == "gpt-3.5-turbo-finetune":
+        input_cost = 3.0
+        output_cost = 6.0
+        cost = ((inp_tokens * input_cost) + (out_tokens * output_cost)) / 1000000
+    elif model == "gpt-4-turbo-1106":
+        input_cost = 10.0
+        output_cost = 30.0
+        cost = ((inp_tokens * input_cost) + (out_tokens * output_cost)) / 1000000
+    # GPT-4
+    elif model == "gpt-4":
+        input_cost = 30.00
+        output_cost = 60.00
+        cost = ((inp_tokens * input_cost) + (out_tokens * output_cost)) / 1000000
+    else:
+        log.error("Invalid model")
+
+    return cost
+
 def sort_results(results: List[dict]) -> List[dict]:
     """
     Sort the results based on the rank
@@ -104,95 +139,8 @@ def sort_results(results: List[dict]) -> List[dict]:
     return results
 
 
-def process_api_json(response):
-    """
-    Process the API response
-    """
-    log.info(f"Processing API response : {response}")
-    # Initialize an empty list to store processed results
-    processed_results = []
-
-    try:
-        # Iterate over each result in the input data
-        for result in response.get("results", []):
-            if isinstance(result, str):
-                try:
-                    result = json.loads(result)  # Assuming result is a JSON string
-                except json.JSONDecodeError:
-                    result = {}
-                    continue
-
-            # Extract contacts and initialize empty lists for email and phone
-            contacts = result.get("contacts", {})
-            emails = []
-            phones = []
-
-            # Process emails using regex to extract valid formats
-            if contacts.get("email"):
-                if isinstance(contacts["email"], list):
-                    emails = re.findall(
-                        r"\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b",
-                        ", ".join(contacts["email"]),
-                    )
-                else:
-                    emails = re.findall(
-                        r"\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b",
-                        contacts["email"],
-                    )
-
-            # Process phone numbers using regex to extract valid formats
-            if contacts.get("phone"):
-                if isinstance(contacts["phone"], list):
-                    phones = re.findall(
-                        r"\b(?:\+\d{1,3}\s?)?(?:\(\d{1,4}\)|\d{1,4})[\s.-]?\d{3,9}[\s.-]?\d{4}\b|\b\d{10}\b",
-                        ", ".join(contacts["phone"]),
-                    )
-                else:
-                    phones = re.findall(
-                        r"\b(?:\+\d{1,3}\s?)?(?:\(\d{1,4}\)|\d{1,4})[\s.-]?\d{3,9}[\s.-]?\d{4}\b|\b\d{10}\b",
-                        contacts["phone"],
-                    )
-
-            # Create a new processed result dictionary
-            processed_result = {
-                "name": result.get("name", ""),
-                "source": result.get("source", ""),
-                "provider": result.get("provider", []),
-                "contacts": {
-                    "email": emails if emails else [],
-                    "phone": phones if phones else [],
-                    "address": contacts.get("address", ""),
-                },
-            }
-
-            if (
-                processed_result["contacts"]["email"] == []
-                and processed_result["contacts"]["phone"] == []
-                and processed_result["contacts"]["address"].strip() == ""
-            ):
-                continue
-
-            # Append the processed result to the list
-            processed_results.append(processed_result)
-
-        # Create the processed JSON response
-        processed_json = {
-            "id": response.get("id", ""),
-            "has_more": response.get("has_more", False),
-            "prompt": response.get("prompt", ""),
-            "location": response.get("location", ""),
-            "time": response.get("time", 0),
-            "count": len(processed_results),
-            "results": processed_results,
-        }
-    except Exception as e:
-        log.error(f"Error processing API response : {e}")
-        raise Exception("Error processing API response")
-
-    return processed_json
-
 def process_results(results):
-    log.info(f"Processing API results : {results}")
+    log.debug(f"Processing API results : {results}")
     # Initialize an empty list to store processed results
     processed_results = []
 
@@ -236,6 +184,7 @@ def process_results(results):
                     "id": result.get("id", random.randint(30, 60)),
                     "rank": result.get("metadata",{}).get("rank"),
                     "name": result.get("name", ""),
+                    "target": result.get("target", ""),
                     "source": result.get("metadata",{}).get("link", ""),
                     "info": result.get("info",""),
                     "provider": result.get("metadata",{}).get("source", []),

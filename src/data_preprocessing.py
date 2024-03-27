@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup, NavigableString, Tag
 from typing import Dict, Any, Iterator, List, Sequence, cast, Tuple
 from langchain.docstore.document import Document
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from src.utils import create_documents, document_regex_sub, document2map
+from src.utils import create_documents, document_lambda, document2map
 
 
 LOG_FILES = False
@@ -98,9 +98,6 @@ def get_navigable_strings(element: Any) -> Tuple[List[str], List[str]]:
                     text_parts.append(f"{child.strip()} [Contact:({href})]")
                 elif "contact" in href.lower():
                     contact_hrefs.append(href)
-                else:
-                    text_parts.append(child.strip())
-
             else:
                 text_parts.append(child.strip())
 
@@ -119,10 +116,12 @@ def preprocess_text(docs: Document) -> Dict:
         unwanted_tags=["script", "style", "noscript", "svg", "img", "input", "pre", "template"],
     )
     # remove long white space
-    docs_transformed = document_regex_sub(docs_transformed, r"\s+", " ")
-    # remove unicode characters
-    docs_transformed = document_regex_sub(docs_transformed, r"\\u[0-9A-Fa-f]{4}", "")
+    regex_lambda = lambda x: re.sub(r"\s+", " ", x) 
+    docs_transformed = document_lambda(docs_transformed, func=regex_lambda)
 
+    unicode_lambda = lambda x: x.encode('utf-8', errors='ignore').decode('utf-8')
+    docs_transformed = document_lambda(docs_transformed, func=unicode_lambda)
+    
     t_flag2 = time.time()
     log.info(f"BeautifulSoupTransformer time: {t_flag2 - t_flag1}")
 
@@ -208,6 +207,9 @@ def process_data_docs(html_docs: Document, chunk_size: int = 400):
     Process the data by extracting text from HTML, splitting it into chunks and extracting relevant data.
     Also gives list of secondary search links
     """
+    html_docs = list(filter(lambda doc: contains_contacts(doc.page_content, email_only=True), html_docs))
+    log.warn(f"Length after doc regex processing: {len(html_docs)}")
+
     docs, site_contact_links = preprocess_text(docs=html_docs)
 
     data = docs_recursive_split(docs=docs, chunk_size=chunk_size, overlap=15)

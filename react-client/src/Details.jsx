@@ -64,12 +64,12 @@ export default function Details({ data }) {
             ))}
           </div>
           <h3>
-            <span className="font-bold">Solution:</span> {data.meta.solution}
+            <span className="font-bold">Targets:</span> {data.meta.targets.join(", ")}
           </h3>
-          <h3>
+          {/* <h3>
             <span className="font-bold">Search Space:</span>{" "}
             {data.meta.search_space.join(", ")}
-          </h3>
+          </h3> */}
         </div>
       </div>
       <h2 className="font-semibold text-lg my-3">Feedback</h2>

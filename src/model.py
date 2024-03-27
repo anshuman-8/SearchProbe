@@ -1,6 +1,6 @@
 import time
 import logging as log
-from typing import List
+from typing import List, Dict
 from pydantic import BaseModel
 
 class ContactDetails(BaseModel):
@@ -49,7 +49,7 @@ class Feedback(BaseModel):
 
 
 class RequestContext():
-    def __init__(self, id:str, prompt:str, location:str, country_code:str, search_space:list=["web"]):
+    def __init__(self, id:str, prompt:str, location:str, country_code:str):
         self.id = id
         self.prompt = prompt
         self.location = location
@@ -58,32 +58,38 @@ class RequestContext():
 
         self.contacts = []
 
-        self.solution = None
-        self.search_space = search_space
-        self.keyword = None
-        self.search_query = None
+        self.targets = []
+        self.web_queries = None
+        self.yelp_query = None
+        self.gmaps_query = None
 
-    def update_search_param(self, search_query:List[str], solution:str, keyword:str, search_space:list=["web"]):
-        if search_query is None or not isinstance(search_query, list) or all(item == "" for item in search_query):
-            log.error(f"No search query provided")
-            raise Exception("Search query not passed")
+    def update_search_param(self, search_query:Dict[str, any], targets:List[str]):
+        if search_query is None or not isinstance(search_query, dict) or targets is None or not targets:
+            log.error(f"No search query or targets provided by Query Generator")
+            raise Exception("Search query or Targets not passed")
         
-        if solution is None or not solution.strip():
-            log.error(f"No solution provided")
-            raise Exception("Solution not passed")
-        
-        if keyword is None or not keyword.strip():
-            log.error(f"No keyword provided")
-            # raise Exception("Keyword not passed")
-        
-        if not search_space or all(item == "" for item in search_space) or not isinstance(search_space, list):
-            log.error(f"No search space provided")
-            raise Exception("Search space not passed")
-        
-        self.search_query = search_query
-        self.solution = solution
-        self.keyword = keyword
-        self.search_space = search_space
+        web_queries = search_query.get("web", None)
+        if web_queries is None or not web_queries:
+            log.error(f"No web search query provided")
+            raise Exception("Web search query not passed")
+        elif isinstance(web_queries, str) and web_queries.strip() == "":
+            web_queries = [web_queries]
+
+        yelp_query = search_query.get("yelp", None)
+        if yelp_query is not None and yelp_query.strip() == "":
+            yelp_query = None
+
+        gmaps_query = search_query.get("gmaps", None)
+        if gmaps_query is not None and gmaps_query.strip() == "":
+            gmaps_query = None
+
+        if isinstance(targets, str) and targets.strip() == "":
+            targets = [targets]
+
+        self.targets = targets
+        self.web_queries = web_queries
+        self.yelp_query = yelp_query
+        self.gmaps_query = gmaps_query
 
     def add_contacts(self, contacts):
         self.contacts.extend(contacts)

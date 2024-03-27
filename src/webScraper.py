@@ -50,7 +50,7 @@ class AsyncChromiumLoader:
                 "**/*",
                 route_handler
             )
-            await page.goto(url, timeout=16000)
+            await page.goto(url, timeout=13500)
             web_content = await page.content()
             t_end = time.time()
             log.info(f"Content scraped for {url} in {t_end - t_start} seconds")
@@ -81,6 +81,6 @@ async def scrape_with_playwright(results) -> List[dict]:
         with open("src/log_data/docs.json", "w") as f:
             json.dump(document2map(docs), f)
 
-    log.info(f"AsyncChromiumLoader time: { t_flag2 - t_flag1}")
+    log.info(f"AsyncChromium Web scrape time : { t_flag2 - t_flag1}")
 
     return docs

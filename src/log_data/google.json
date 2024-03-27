@@ -1,1 +1,1292 @@
-{"kind": "customsearch#search", "url": {"type": "application/json", "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"}, "queries": {"request": [{"title": "Google Custom Search - Bangalore hotels booking email", "totalResults": "34200000", "searchTerms": "Bangalore hotels booking email", "count": 10, "startIndex": 1, "language": "lang_en", "inputEncoding": "utf8", "outputEncoding": "utf8", "safe": "off", "cx": "5323d62a726e448d5", "gl": "IN"}], "nextPage": [{"title": "Google Custom Search - Bangalore hotels booking email", "totalResults": "34200000", "searchTerms": "Bangalore hotels booking email", "count": 10, "startIndex": 11, "language": "lang_en", "inputEncoding": "utf8", "outputEncoding": "utf8", "safe": "off", "cx": "5323d62a726e448d5", "gl": "IN"}]}, "context": {"title": "Margati Search"}, "searchInformation": {"searchTime": 0.320999, "formattedSearchTime": "0.32", "totalResults": "34200000", "formattedTotalResults": "34,200,000"}, "items": [{"kind": "customsearch#result", "title": "Booking.com Customer Service", "htmlTitle": "<b>Booking</b>.com Customer Service", "link": "https://www.booking.com/customer-service.html", "displayLink": "www.booking.com", "snippet": "For anything urgent, you can call us 24/7 at a local or international phone number. Contact the property. For details about your stay, they usually know best.", "htmlSnippet": "For anything urgent, you can call us 24/7 at a local or international phone number. <b>Contact</b> the property. For details about your <b>stay</b>, they usually know <b>best</b>.", "cacheId": "YpM-9WlmyjYJ", "formattedUrl": "https://www.booking.com/customer-service.html", "htmlFormattedUrl": "https://www.<b>booking</b>.com/customer-service.html", "pagemap": {"answer": [{"text": "Yes \u2013 any cancellation fees are determined by the property and listed in your cancellation policy. You'll pay any additional costs to the property."}, {"text": "If you have a free cancellation booking, you won't pay a cancellation fee. If your booking isn't free to cancel anymore or is non-refundable, you may incur a cancellation fee. Any cancellation..."}, {"text": "Generally, the property is responsible for charging your card. If payment is instead handled by Booking.com, this will be stated clearly in your booking confirmation. You usually can expect..."}, {"text": "Yes! You can make changes to your booking from your confirmation email or at Booking.com. Depending on the property's policy, you can do the following: Change check-in/out times Change dates..."}, {"text": "Be sure to check your email inbox, spam, and junk folders. If you still can't find your confirmation, go to booking.com/help and we'll resend it to you."}, {"text": "You'll need a valid credit card to guarantee your reservation with most properties. However, we offer a number of hotels that will guarantee your booking without a card. You can also make a..."}, {"text": "The charge you see could be any one of the following: Pre-authorization: A pre-authorization is just a validity check that temporarily blocks an amount roughly equivalent to the cost of your..."}, {"text": "Pet policies are always displayed on the property\u2019s page under \"House rules.\""}], "metatags": [{"twitter:app:id:googleplay": "com.booking", "al:ios:app_name": "Booking.com Hotel Reservations", "twitter:app:id:ipad": "367003839", "al:android:package": "com.booking", "twitter:app:name:googleplay": "Booking.com Hotel Reservations", "twitter:app:id:iphone": "367003839", "al:ios:app_store_id": "367003839", "referrer": "origin", "booking-verification": "UmFuZG9tSVa5L8A9wjb_EqHhILknAQXu9ZtU0h5dbBLlwCpWmRcvC9NKUwrZyaymlQaQK7RFD5nmtkILVvrVuVrKwdfLoVcd4_YRneC6PKWgWxvb6m7ZiT3wclauGQtW_J67BrLcNOEX_IL9wZNdz7XuzDiUIzvCUK21k8DoWCYjzEk-TXwOT_wqs259-Gzd0mqgHoWOUm1n5XB3hcLNbeLKAjLvGSETUhAdzrouDuih9x5gGrWq3PAxlUfoYvuR0fXTwVnpBHFJx8jbs1tRx4rR0lqbOX9YrgLEX28B5zifDsbtTskHtDXAFLwkqhYAzIM_-5n9AWUDP9O3Gp0R8aP0tlXSTxR73Dh1gdnLWgYiUCmkNh0Qnv6YHUaAutNBBRV6Kbu4j6CXgTzm5QpZMDUf9fAxj5tEn0h0SEUYTxfCX4y4VVZqVyTceZN9BFHYL55fOTjRa2LZBNwTCKG1AXDbcFORjMp-T1P_FtyDKtLOkRBxQFrnWUn2pV51zQX06i1q80o6syY", "twitter:app:name:ipad": "Booking.com Hotel Reservations Worldwide & Hotel Deals", "viewport": "width=device-width, initial-scale=1.0", "apple-mobile-web-app-capable": "no", "name": "Booking.com", "position": "1", "al:android:app_name": "Booking.com Hotel Reservation", "apple-touch-fullscreen": "yes"}]}}, {"kind": "customsearch#result", "title": "Telephone numbers and addresses | Help and contacts", "htmlTitle": "Telephone numbers and addresses | Help and contacts", "link": "https://www.britishairways.com/en-us/information/help-and-contacts/contact-us", "displayLink": "www.britishairways.com", "snippet": "Contact details for our worldwide offices. ... Have you already booked? Please have your booking reference ready when you call.", "htmlSnippet": "<b>Contact</b> details for our worldwide offices. ... Have you already <b>booked</b>? Please have your <b>booking</b> reference ready when you call.", "cacheId": "Vow9O4ZjWfYJ", "formattedUrl": "https://www.britishairways.com/en-us/information/help-and.../contact-us", "htmlFormattedUrl": "https://www.britishairways.com/en-us/information/help-and.../contact-us", "pagemap": {"cse_thumbnail": [{"src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR4xvKNBMnslGwu8slA3owaI7x1JxaPIYOcgabNmRoVjVET2duYO1BSHQ", "width": "160", "height": "125"}], "metatags": [{"og:image": "http://www.britishairways.com/assets/images/global/site/facebookImages/default.png", "referrer": "no-referrer-when-downgrade", "viewport": "width=device-width, initial-scale=1", "og:title": "Telephone numbers and addresses | Help and contacts"}], "cse_image": [{"src": "http://www.britishairways.com/assets/images/global/site/facebookImages/default.png"}], "listitem": [{"item": "Home", "name": "Home", "position": "1"}, {"item": "Information", "name": "Information", "position": "2"}, {"item": "Help and contacts", "name": "Help and contacts", "position": "4"}, {"name": "Contact us", "position": "5"}]}}, {"kind": "customsearch#result", "title": "Contact Us - Booking.com", "htmlTitle": "Contact Us - Booking.com", "link": "https://www.booking.com/content/contact-us.html", "displayLink": "www.booking.com", "snippet": "Corporate Contact. Need help with a booking? Visit My Bookings page; Do you have a question? Go to our Help Center; Are you a property owner who needs help?", "htmlSnippet": "Corporate <b>Contact</b>. Need help with a <b>booking</b>? Visit My <b>Bookings</b> page; Do you have a question? Go to our Help Center; Are you a property owner who needs help?", "cacheId": "OJOasdwi62gJ", "formattedUrl": "https://www.booking.com/content/contact-us.html", "htmlFormattedUrl": "https://www.<b>booking</b>.com/content/contact-us.html", "pagemap": {"cse_thumbnail": [{"src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR4oMJZZcakPR5v8ExCrHfXfQT_xITj4MEb-j06axr6wWyVsmn5nDlpU4I", "width": "310", "height": "163"}], "metatags": [{"p:domain_verify": "ff7f0b90ebb93e5bf7c7cafe77640ec1", "twitter:app:id:googleplay": "com.booking", "og:image": "https://cf.bstatic.com/static/img/fb/3/e4bb7533eaf64f88aca4ee624f68aba1db6c203e.jpg", "twitter:card": "summary_large_image", "og:site_name": "Booking.com", "al:android:package": "com.booking", "twitter:app:name:googleplay": "Booking.com Hotel Reservations", "twitter:app:id:iphone": "367003839", "twitter:creator": "@bookingcom", "og:description": "Whether you\u2019re looking for hotels, homes, or vacation rentals, you\u2019ll always find the guaranteed best price. Browse our  accommodations in over 85,000 destinations.", "al:ios:app_store_id": "367003839", "twitter:image": "https://cf.bstatic.com/static/img/twitter-image-else/566c7081f1deeaca39957e96365c3908f83b95af.jpg", "twitter:site": "@bookingcom", "wb:webmaster": "48970bbca45d28c2", "twitter:title": "Booking.com: The largest selection of hotels, homes, and vacation rentals", "og:type": "company", "al:ios:app_name": "Booking.com Hotel Reservations", "og:title": "Booking.com: The largest selection of hotels, homes, and vacation rentals", "twitter:app:id:ipad": "367003839", "fb:pages": "131840030178250, 1425349334428496, 117615518393985, 1565844503706287, 517612321758712, 1668799180037291, 265097377176252, 1643712662515912, 303492549842824, 1638321783047271, 809709019119342, 959185470826086, 217466488652137, 641365839348517, 203741606405114", "referrer": "origin", "fb:app_id": "145362478954725", "booking-verification": "UmFuZG9tSVaurixDF-oRqAUAH78sWO2vrG5PnhBY7RaHGaSyFmCVXrlyb57iSgjJy166jE64GVvu-ewU5kEHSvqVETDNoMLLAR0tfJK4OqNDY2T5r3ylCKPVJOMAlW-193OvJjl_0eBV7VPfPqvpe2rDE2QEsTr_ZIQi_VTQp9Ck7c74Xr7BX6us8kRudggK4VDaeN1xVwG50-vDvy6aartqMTaj0_CaNTLcAeglUDoqgR-VFFFNsYibeqaofc2Vim9ISIJbrjipPffXMKRGl8yGyXyCdSFKSVX01JYeb70BtPrEPqMeqUx-ajxllOWJYh9YNQS7BXy9GbVjwiFIQ6qIrMn9ETmXGlFF5qmrup3xbPrm4zwbD6zRY9081fbRRmUDJ1-KoyTpG5D6h2MojIBne6MlhEKa0LXjApfu8t1qZAqWsRX-_Z-BQrmtEgMfoS642PvtZAf0IhZqz1ARXL0hrDDPP7PtmE_yu7fBaETFV8MAE8zOSv5e91ixfTSH", "twitter:app:name:ipad": "Booking.com Hotel Reservations Worldwide & Hotel Deals", "viewport": "width=device-width, initial-scale=1", "twitter:description": "Whether you\u2019re looking for hotels, homes, or vacation rentals, you\u2019ll always find the guaranteed best price. Browse our  accommodations in over 85,000 destinations.", "og:locale": "en_US", "og:url": "https://www.booking.com/content/contact-us.html", "al:android:app_name": "Booking.com Hotel Reservation"}], "cse_image": [{"src": "https://cf.bstatic.com/static/img/fb/3/e4bb7533eaf64f88aca4ee624f68aba1db6c203e.jpg"}]}}, {"kind": "customsearch#result", "title": "Hotel in Bangalore | Renaissance Bengaluru Race Course Hotel", "htmlTitle": "<b>Hotel</b> in <b>Bangalore</b> | Renaissance <b>Bengaluru</b> Race Course <b>Hotel</b>", "link": "https://www.marriott.com/en-us/hotels/blrbh-renaissance-bengaluru-race-course-hotel/overview/", "displayLink": "www.marriott.com", "snippet": "Book our five-star business hotel in Bangalore, India, for stylish hotel amenities and a culture-forward location at Renaissance Bengaluru Race Course\u00a0...", "htmlSnippet": "<b>Book</b> our five-star business <b>hotel</b> in <b>Bangalore</b>, India, for stylish <b>hotel</b> amenities and a culture-forward location at Renaissance <b>Bengaluru</b> Race Course&nbsp;...", "cacheId": "BqA-mJn5H88J", "formattedUrl": "https://www.marriott.com/en-us/hotels/blrbh-renaissance.../overview/", "htmlFormattedUrl": "https://www.marriott.com/en-us/<b>hotels</b>/blrbh-renaissance.../overview/", "pagemap": {"cse_thumbnail": [{"src": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQD_Xkxmn6haXiuS_PoOCT8iwt5PLls65EmgKvs-Hq-L-vvVJEvBMMqTcTa", "width": "313", "height": "161"}], "review": [{"ratingstars": "5.0", "reviewdate": "2024-02-19", "reviewer": "Jyothika"}, {"datecreated": "2024-02-19", "reviewbody": "I was impressed by the professionalism and warmth of your staff.In particular, I would like to extend my gratitude to Aditya at the front desk. His attentiveness, friendliness, and efficiency...", "headline": "Exceptional Stay and Outstanding Service", "datepublished": "2024-02-19"}, {"datecreated": "2024-02-15", "reviewbody": "Only the thing is how to use the points", "headline": "Nothing to express", "datepublished": "2024-02-15"}, {"datecreated": "2024-02-14", "reviewbody": "We enjoyed every bit of ou stay at the Renaissance.", "headline": "Wonderfully enjoyable stay!!", "datepublished": "2024-02-15"}, {"datecreated": "2024-02-14", "reviewbody": "My stay at the Renaissance was a lovely and pleasant experience. I recommend the Lush restaurant and would encourage guests to make use of the rooftop pool. The rooms are spotless and the facilitie...", "headline": "Amazing February Stay", "datepublished": "2024-02-14"}, {"datecreated": "2024-02-14", "reviewbody": "I really like to recommend this hotel to my other colleagues as well , specially for the worm welcome from front office prodyot for personal services given to me, Again special thanks to Prodyot...", "headline": "It was a great stay", "datepublished": "2024-02-15"}, {"datecreated": "2024-02-12", "reviewbody": "Extremely comfortable stay. Great hospitality starting from checkin to check out. Staff makes you feel special for your elite Bon Voy status", "headline": "4 Nights Stay", "datepublished": "2024-02-12"}, {"datecreated": "2024-02-11", "reviewbody": "Thank you for making my visit comfortable and remarkable", "headline": "Pleasant Experience", "datepublished": "2024-02-11"}, {"datecreated": "2024-02-06", "reviewbody": "Overall a good hotel to stay in. Excellent food and attentive staff. Rooms are good with views of the racecourse.", "headline": "Bengaluru stay", "datepublished": "2024-02-06"}, {"datecreated": "2024-02-02", "reviewbody": "Great experience staying at the hotel. Hotel staff especially Armaan Mittal did everything to correct a small issue we had with the room and making sure we felt comfortable. Food was excellent...", "headline": "Excellent service by housekeeping manager", "datepublished": "2024-02-02"}, {"datecreated": "2024-01-27", "reviewbody": "It was our first time in India and arriving at the hotel we felt immediately at home. The decor is beautiful, the staff friendly and we got a nice upgrade, it felt like a safe harbour after...", "headline": "Faultless", "datepublished": "2024-01-27"}], "person": [{"name": "Jyothika"}, {"name": "Ambresh"}, {"name": "Sene"}, {"name": "English Female"}, {"name": "Anonymous"}, {"name": "Sukhvinder"}, {"name": "Fatma"}, {"name": "Laxman M"}, {"name": "Deepsatrennblore"}, {"name": "Catherine"}], "hreview": [{"dtreviewed": "2024-02-19", "description": "I was impressed by the professionalism and warmth of your staff.In particular, I would like to extend my gratitude to Aditya at the front desk. His attentiveness, friendliness, and efficiency..."}, {"dtreviewed": "2024-02-15", "description": "Only the thing is how to use the points"}, {"dtreviewed": "2024-02-15", "description": "We enjoyed every bit of ou stay at the Renaissance."}, {"dtreviewed": "2024-02-14", "description": "My stay at the Renaissance was a lovely and pleasant experience. I recommend the Lush restaurant and would encourage guests to make use of the rooftop pool. The rooms are spotless and the facilitie..."}, {"dtreviewed": "2024-02-15", "description": "I really like to recommend this hotel to my other colleagues as well , specially for the worm welcome from front office prodyot for personal services given to me, Again special thanks to Prodyot..."}, {"dtreviewed": "2024-02-12", "description": "Extremely comfortable stay. Great hospitality starting from checkin to check out. Staff makes you feel special for your elite Bon Voy status"}, {"dtreviewed": "2024-02-11", "description": "Thank you for making my visit comfortable and remarkable"}, {"dtreviewed": "2024-02-06", "description": "Overall a good hotel to stay in. Excellent food and attentive staff. Rooms are good with views of the racecourse."}, {"dtreviewed": "2024-02-02", "description": "Great experience staying at the hotel. Hotel staff especially Armaan Mittal did everything to correct a small issue we had with the room and making sure we felt comfortable. Food was excellent..."}, {"dtreviewed": "2024-01-27", "description": "It was our first time in India and arriving at the hotel we felt immediately at home. The decor is beautiful, the staff friendly and we got a nice upgrade, it felt like a safe harbour after..."}], "aggregaterating": [{"ratingvalue": "4.5", "reviewcount": "542", "bestrating": "5"}, {"ratingvalue": "4.5", "reviewcount": "542", "bestrating": "5"}], "rating": [{"ratingvalue": "5", "bestrating": "5"}, {"ratingvalue": "4", "bestrating": "5"}, {"ratingvalue": "5", "bestrating": "5"}, {"ratingvalue": "5", "bestrating": "5"}, {"ratingvalue": "5", "bestrating": "5"}, {"ratingvalue": "5", "bestrating": "5"}, {"ratingvalue": "5", "bestrating": "5"}, {"ratingvalue": "4", "bestrating": "5"}, {"ratingvalue": "5", "bestrating": "5"}, {"ratingvalue": "5", "bestrating": "5"}], "metatags": [{"template": "marriott-hws-core-content-page", "apple-mobile-web-app-status-bar-style": "black", "bvdatemodified": "2024-02-29", "viewport": "width=device-width, initial-scale=1", "apple-mobile-web-app-capable": "yes", "mobile-web-app-capable": "yes"}], "cse_image": [{"src": "https://cache.marriott.com/content/dam/marriott-digital/br/global-property-shared/en_us/logo/assets/br_logo_L.png"}], "individualproduct": [{"name": "Renaissance Bengaluru Race Course Hotel"}, {"name": "Renaissance Bengaluru Race Course Hotel"}, {"name": "Renaissance Bengaluru Race Course Hotel"}, {"name": "Renaissance Bengaluru Race Course Hotel"}, {"name": "Renaissance Bengaluru Race Course Hotel"}, {"name": "Renaissance Bengaluru Race Course Hotel"}, {"name": "Renaissance Bengaluru Race Course Hotel"}, {"name": "Renaissance Bengaluru Race Course Hotel"}, {"name": "Renaissance Bengaluru Race Course Hotel"}, {"name": "Renaissance Bengaluru Race Course Hotel"}, {"name": "Renaissance Bengaluru Race Course Hotel"}, {"name": "Renaissance Bengaluru Race Course Hotel"}]}}, {"kind": "customsearch#result", "title": "Taj Bangalore - 5 Star Hotel near Bangalore Airport | Taj Hotels", "htmlTitle": "Taj <b>Bangalore</b> - 5 Star <b>Hotel</b> near <b>Bangalore</b> Airport | Taj <b>Hotels</b>", "link": "https://www.tajhotels.com/en-in/taj/taj-bangalore/", "displayLink": "www.tajhotels.com", "snippet": "Taj Bangalore is strategically located near Bangalore Airport. A 5-star hotel with sleek architecture, plush rooms with views and top-notch wellness\u00a0...", "htmlSnippet": "Taj <b>Bangalore</b> is strategically located near <b>Bangalore</b> Airport. A 5-star <b>hotel</b> with sleek architecture, plush rooms with views and top-notch wellness&nbsp;...", "cacheId": "dZd7alsCWEcJ", "formattedUrl": "https://www.tajhotels.com/en-in/taj/taj-bangalore/", "htmlFormattedUrl": "https://www.taj<b>hotels</b>.com/en-in/taj/taj-<b>bangalore</b>/", "pagemap": {"cse_thumbnail": [{"src": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS6W5qzGhvrKnLejWfPPkpSEG3Zw3VEIUeIA7Fsqa-YkG_0VMNxP89LzXc", "width": "227", "height": "222"}], "metatags": [{"og:image": "https://www.tajhotels.com:443/content/dam/luxury/hotels/taj-bangalore/images/gallery/1 Facade.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg", "twitter:card": "product", "twitter:title": "Taj Bangalore - 5 Star Hotel near Bangalore Airport | Taj Hotels", "og:type": "website", "og:site_name": "Taj", "og:title": "Taj Bangalore - 5 Star Hotel near Bangalore Airport | Taj Hotels", "og:description": "Taj Bangalore is strategically located near Bangalore Airport. A 5-star hotel with sleek architecture, plush rooms with views and top-notch wellness facilities. Book now!", "twitter:image": "https://www.tajhotels.com:443/content/dam/luxury/hotels/taj-bangalore/images/gallery/1 Facade.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg", "twitter:site": "@taj_team_build", "viewport": "width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no", "twitter:description": "Taj Bangalore is strategically located near Bangalore Airport. A 5-star hotel with sleek architecture, plush rooms with views and top-notch wellness facilities. Book now!", "og:url": "https://www.tajhotels.com/en-in/taj/taj-bangalore/", "tdl-sso-client_id": "IHCL-WEB-APP"}], "cse_image": [{"src": "https://www.tajhotels.com/content/dam/qmin/Qmin--Web-banner--Mobile.png/jcr:content/renditions/cq5dam.web.1280.1280.png"}], "listitem": [{"position": "0"}, {"position": "1"}]}}, {"kind": "customsearch#result", "title": "Hotel in Malleswaram | Sheraton Grand Bangalore Hotel at Brigade ...", "htmlTitle": "<b>Hotel</b> in Malleswaram | Sheraton Grand <b>Bangalore Hotel</b> at Brigade ...", "link": "https://www.marriott.com/en-us/hotels/blrgs-sheraton-grand-bangalore-hotel-at-brigade-gateway/overview/", "displayLink": "www.marriott.com", "snippet": "Experience luxury in Bengaluru, India, with 5-star hotel rooms, a wide array of dining options and an on-site spa at Sheraton Grand Bangalore Hotel at\u00a0...", "htmlSnippet": "Experience luxury in <b>Bengaluru</b>, India, with 5-star <b>hotel</b> rooms, a wide array of dining options and an on-site spa at Sheraton Grand <b>Bangalore Hotel</b> at&nbsp;...", "cacheId": "lQ227a3oEfMJ", "formattedUrl": "https://www.marriott.com/en-us/hotels/blrgs...bangalore-hotel.../overview/", "htmlFormattedUrl": "https://www.marriott.com/en-us/<b>hotels</b>/blrgs...<b>bangalore</b>-hotel.../overview/", "pagemap": {"review": [{"ratingstars": "5.0", "reviewdate": "2024-02-23", "reviewer": "Christian Gregory"}, {"datecreated": "2024-02-23", "reviewbody": "My stay at the Grand Bangalore has been my most valued travel experience. I would most certainly recommend it to others traveling to India from the USA. Not only would I return for the thoughtful...", "headline": "Excellent business and travel trip", "datepublished": "2024-02-23"}, {"datecreated": "2024-02-20", "reviewbody": "Good service from staff ,good food ,clean room and club lounge is very good 24 hours service", "headline": "Good", "datepublished": "2024-02-20"}, {"datecreated": "2024-02-19", "reviewbody": "great hotel, excellent customer service", "headline": "VS", "datepublished": "2024-02-19"}, {"datecreated": "2024-02-17", "reviewbody": "The staffs were very prompt and courteous to any such requirement. The main restaurant buffet was also well spread.", "headline": "Very good", "datepublished": "2024-02-17"}, {"datecreated": "2024-02-17", "reviewbody": "My first home the hotel and team is excellent \ud83d\udc4c \ud83d\udc4f \ud83d\udc4d \ud83d\ude00 \ud83d\ude4c", "headline": "Fantastic stay", "datepublished": "2024-02-18"}, {"datecreated": "2024-02-16", "reviewbody": "I always like staying in this hotel when I am in Bengaluru. The area is quiet, close to the airport and have restaurants and shopping in walking distance.", "headline": "Great place for a week in Bengaluru", "datepublished": "2024-02-16"}, {"datecreated": "2024-02-11", "reviewbody": "The stay at Sheraton was really amazing. The property, buffet spread, amenities everything was upto the mark. Love to visit again soon.", "headline": "Excellent stay", "datepublished": "2024-02-12"}, {"datecreated": "2024-02-10", "reviewbody": "Good experience during the stay", "headline": "Sheraton bangalore", "datepublished": "2024-02-10"}, {"datecreated": "2024-02-08", "reviewbody": "one the best hotel i ever stayed.", "headline": "best hotel in bangalore", "datepublished": "2024-02-08"}, {"datecreated": "2024-02-07", "reviewbody": "Very nice. One can enjoy the food and beverages may be at room, hall or in pool. All staff members are very cordial and ready to help with smile. Found to be very cleaned.", "headline": "Rest with pleasure and forget your hectic day.", "datepublished": "2024-02-08"}], "person": [{"name": "Christian Gregory"}, {"name": "JITHESH"}, {"name": "VS"}, {"name": "Surabid Paul"}, {"name": "Mahendra"}, {"name": "Jorn Ostby"}, {"name": "Bhavya"}, {"name": "Sneh"}, {"name": "yash"}, {"name": "Anonymous"}], "hreview": [{"dtreviewed": "2024-02-23", "description": "My stay at the Grand Bangalore has been my most valued travel experience. I would most certainly recommend it to others traveling to India from the USA. Not only would I return for the thoughtful..."}, {"dtreviewed": "2024-02-20", "description": "Good service from staff ,good food ,clean room and club lounge is very good 24 hours service"}, {"dtreviewed": "2024-02-19", "description": "great hotel, excellent customer service"}, {"dtreviewed": "2024-02-17", "description": "The staffs were very prompt and courteous to any such requirement. The main restaurant buffet was also well spread."}, {"dtreviewed": "2024-02-18", "description": "My first home the hotel and team is excellent \ud83d\udc4c \ud83d\udc4f \ud83d\udc4d \ud83d\ude00 \ud83d\ude4c"}, {"dtreviewed": "2024-02-16", "description": "I always like staying in this hotel when I am in Bengaluru. The area is quiet, close to the airport and have restaurants and shopping in walking distance."}, {"dtreviewed": "2024-02-12", "description": "The stay at Sheraton was really amazing. The property, buffet spread, amenities everything was upto the mark. Love to visit again soon."}, {"dtreviewed": "2024-02-10", "description": "Good experience during the stay"}, {"dtreviewed": "2024-02-08", "description": "one the best hotel i ever stayed."}, {"dtreviewed": "2024-02-08", "description": "Very nice. One can enjoy the food and beverages may be at room, hall or in pool. All staff members are very cordial and ready to help with smile. Found to be very cleaned."}], "aggregaterating": [{"ratingvalue": "4.5", "reviewcount": "584", "bestrating": "5"}, {"ratingvalue": "4.5", "reviewcount": "584", "bestrating": "5"}], "rating": [{"ratingvalue": "5", "bestrating": "5"}, {"ratingvalue": "5", "bestrating": "5"}, {"ratingvalue": "5", "bestrating": "5"}, {"ratingvalue": "4", "bestrating": "5"}, {"ratingvalue": "5", "bestrating": "5"}, {"ratingvalue": "5", "bestrating": "5"}, {"ratingvalue": "5", "bestrating": "5"}, {"ratingvalue": "4", "bestrating": "5"}, {"ratingvalue": "5", "bestrating": "5"}, {"ratingvalue": "4", "bestrating": "5"}], "metatags": [{"template": "marriott-hws-core-content-page", "apple-mobile-web-app-status-bar-style": "black", "bvdatemodified": "2024-02-29", "viewport": "width=device-width, initial-scale=1", "apple-mobile-web-app-capable": "yes", "mobile-web-app-capable": "yes"}], "individualproduct": [{"name": "Sheraton Grand Bangalore Hotel at Brigade Gateway"}, {"name": "Sheraton Grand Bangalore Hotel at Brigade Gateway"}, {"name": "Sheraton Grand Bangalore Hotel at Brigade Gateway"}, {"name": "Sheraton Grand Bangalore Hotel at Brigade Gateway"}, {"name": "Sheraton Grand Bangalore Hotel at Brigade Gateway"}, {"name": "Sheraton Grand Bangalore Hotel at Brigade Gateway"}, {"name": "Sheraton Grand Bangalore Hotel at Brigade Gateway"}, {"name": "Sheraton Grand Bangalore Hotel at Brigade Gateway"}, {"name": "Sheraton Grand Bangalore Hotel at Brigade Gateway"}, {"name": "Sheraton Grand Bangalore Hotel at Brigade Gateway"}, {"name": "Sheraton Grand Bangalore Hotel at Brigade Gateway"}, {"name": "Sheraton Grand Bangalore Hotel at Brigade Gateway"}]}}, {"kind": "customsearch#result", "title": "Hotels in Bangalore - Hilton Bangalore Embassy GolfLinks", "htmlTitle": "<b>Hotels</b> in <b>Bangalore</b> - Hilton <b>Bangalore</b> Embassy GolfLinks", "link": "https://www.hilton.com/en/hotels/blrrehi-hilton-bangalore-embassy-golflinks/", "displayLink": "www.hilton.com", "snippet": "Located within the Embassy GolfLinks Business Park, Hilton in Bangalore is an hour drive from the airport, and six km from Bangalore city center. Book Now.", "htmlSnippet": "Located within the Embassy GolfLinks Business Park, Hilton in <b>Bangalore</b> is an hour drive from the airport, and six km from <b>Bangalore</b> city center. <b>Book</b> Now.", "cacheId": "y_tDvDrfR-sJ", "formattedUrl": "https://www.hilton.com/.../hotels/blrrehi-hilton-bangalore-embassy-golflink...", "htmlFormattedUrl": "https://www.hilton.com/.../<b>hotels</b>/blrrehi-hilton-<b>bangalore</b>-embassy-golflink...", "pagemap": {"cse_thumbnail": [{"src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSValXfEUJPJjXa-tbKMMq32tDyWqXYjeNMhbzxPZbtKS5Z-6vEm7vV", "width": "66", "height": "50"}], "metatags": [{"og:image": "https://www.hilton.com/modules/assets/svgs/logos/HI.svg", "twitter:card": "summary", "og:type": "website", "og:site_name": "Hilton", "og:title": "Hotels in Bangalore - Hilton Bangalore Embassy GolfLinks", "og:description": "Located within the Embassy GolfLinks Business Park, Hilton in Bangalore is an hour drive from the airport, and six km from Bangalore city center. Book Now", "dx-version": "dx-property-ui:228183", "next-head-count": "21", "fb:app_id": "253862148111843", "twitter:site": "@Hilton", "viewport": "width=device-width", "dx-ui-service": "property-ui", "og:url": "https://www.hilton.com/en/hotels/blrrehi-hilton-bangalore-embassy-golflinks/"}], "cse_image": [{"src": "https://www.hilton.com/modules/assets/svgs/logos/HI.svg"}]}}, {"kind": "customsearch#result", "title": "4-Star Hotels in Bangalore | Fairfield by Marriott Bengaluru Outer ...", "htmlTitle": "4-Star <b>Hotels</b> in <b>Bangalore</b> | Fairfield by Marriott <b>Bengaluru</b> Outer ...", "link": "https://www.marriott.com/en-us/hotels/blrfi-fairfield-bengaluru-outer-ring-road/overview/", "displayLink": "www.marriott.com", "snippet": "Stay at Fairfield by Marriott Bengaluru Outer Ring Road, a modern hotel in Bellandur, Bangalore, with superb dining, a tranquil spa, pool and fitness\u00a0...", "htmlSnippet": "<b>Stay</b> at Fairfield by Marriott <b>Bengaluru</b> Outer Ring Road, a modern <b>hotel</b> in Bellandur, <b>Bangalore</b>, with superb dining, a tranquil spa, pool and fitness&nbsp;...", "cacheId": "A0CkuFIvpPIJ", "formattedUrl": "https://www.marriott.com/en-us/hotels/blrfi-fairfield...outer.../overview/", "htmlFormattedUrl": "https://www.marriott.com/en-us/<b>hotels</b>/blrfi-fairfield...outer.../overview/", "pagemap": {"review": [{"ratingstars": "5.0", "reviewdate": "2024-02-10", "reviewer": "Cass"}, {"datecreated": "2024-02-10", "reviewbody": "I recently had long stay in Bengeluru but the staff were all so friendly and accommodating that it truly felt like a home away from home by the end. The food and attention to detail in the...", "headline": "A month long stay", "datepublished": "2024-02-10"}, {"datecreated": "2024-01-30", "reviewbody": "Nice stay . Excellent food and hospitality.", "headline": "Nice stay", "datepublished": "2024-01-30"}, {"datecreated": "2024-01-29", "reviewbody": "Good location but little pricy", "headline": "best location", "datepublished": "2024-01-29"}, {"datecreated": "2024-01-25", "reviewbody": "Marriot Fairfield provided an amazing customer experience from check in, dining and housekeeping. The sincere care for customers shows in the way you get treated. Indrani from housekeeping...", "headline": "A true experience", "datepublished": "2024-01-25"}, {"datecreated": "2024-01-12", "reviewbody": "My stay was relaxing and pleasant. Room was clean and all worked properly.All employees at the Poolbar and MoMo Cafe Restaurant were very professional and helpful especially Ahmit, Tenzing,...", "headline": "Great place to stay in Bengaluru", "datepublished": "2024-01-12"}, {"datecreated": "2023-12-29", "reviewbody": "Hotel is located at prime location, close to business place. Rooms are large and clean. There were plenty of complementary drinking water in the room. Food quality was good, staffs were courteous...", "headline": "A decent and comfortable stay", "datepublished": "2023-12-29"}, {"datecreated": "2023-12-24", "reviewbody": "Comfortable stay at Fairfield. Staff is courteous. Nearby to many corporate offices.", "headline": "Business_Stay_Bangalore", "datepublished": "2023-12-24"}, {"datecreated": "2023-12-20", "reviewbody": "Stay Review for Fair Field", "headline": "Stay Review", "datepublished": "2023-12-20"}, {"datecreated": "2023-12-11", "reviewbody": "I recently had the pleasure of staying at your esteemed hotel and I felt compelled to extend my sincerest appreciation for the exceptional service provided by two of your staff members, Tanvi...", "headline": "Great Hotel with Great staff attitude", "datepublished": "2023-12-11"}, {"datecreated": "2023-12-08", "reviewbody": "Nice place to stay with courteous staff. Good spread with live counters for fresh preparations.", "headline": "Nice place to stay near Outer Ring Road Bengaluru", "datepublished": "2023-12-08"}], "person": [{"name": "Cass"}, {"name": "Deepali"}, {"name": "Sarvesh"}, {"name": "Mark L"}, {"name": "Milan"}, {"name": "GOUTAM"}, {"name": "Abhishek Alladi"}, {"name": "Anonymous"}, {"name": "GSSSocialProperty"}, {"name": "Nitin"}, {"name": "Sanjeev"}], "hreview": [{"dtreviewed": "2024-02-10", "description": "I recently had long stay in Bengeluru but the staff were all so friendly and accommodating that it truly felt like a home away from home by the end. The food and attention to detail in the..."}, {"dtreviewed": "2024-01-30", "description": "Nice stay . Excellent food and hospitality."}, {"dtreviewed": "2024-01-29", "description": "Good location but little pricy"}, {"dtreviewed": "2024-01-25", "description": "Marriot Fairfield provided an amazing customer experience from check in, dining and housekeeping. The sincere care for customers shows in the way you get treated. Indrani from housekeeping..."}, {"dtreviewed": "2024-01-12", "description": "My stay was relaxing and pleasant. Room was clean and all worked properly.All employees at the Poolbar and MoMo Cafe Restaurant were very professional and helpful especially Ahmit, Tenzing,..."}, {"dtreviewed": "2023-12-29", "description": "Hotel is located at prime location, close to business place. Rooms are large and clean. There were plenty of complementary drinking water in the room. Food quality was good, staffs were courteous..."}, {"dtreviewed": "2023-12-24", "description": "Comfortable stay at Fairfield. Staff is courteous. Nearby to many corporate offices."}, {"dtreviewed": "2023-12-20", "description": "Stay Review for Fair Field"}, {"dtreviewed": "2023-12-11", "description": "I recently had the pleasure of staying at your esteemed hotel and I felt compelled to extend my sincerest appreciation for the exceptional service provided by two of your staff members, Tanvi..."}, {"dtreviewed": "2023-12-08", "description": "Nice place to stay with courteous staff. Good spread with live counters for fresh preparations."}], "aggregaterating": [{"ratingvalue": "4.4", "reviewcount": "268", "bestrating": "5"}, {"ratingvalue": "4.4", "reviewcount": "268", "bestrating": "5"}], "rating": [{"ratingvalue": "5", "bestrating": "5"}, {"ratingvalue": "5", "bestrating": "5"}, {"ratingvalue": "4", "bestrating": "5"}, {"ratingvalue": "5", "bestrating": "5"}, {"ratingvalue": "5", "bestrating": "5"}, {"ratingvalue": "5", "bestrating": "5"}, {"ratingvalue": "4", "bestrating": "5"}, {"ratingvalue": "2", "bestrating": "5"}, {"ratingvalue": "5", "bestrating": "5"}, {"ratingvalue": "5", "bestrating": "5"}], "metatags": [{"template": "marriott-hws-core-content-page", "apple-mobile-web-app-status-bar-style": "black", "bvdatemodified": "2024-02-29", "viewport": "width=device-width, initial-scale=1", "apple-mobile-web-app-capable": "yes", "mobile-web-app-capable": "yes"}], "comment": [{"datecreated": "2023-12-21", "text": "Dear Guest,We sincerely apologize the inconvenience caused to you. I will personally address the concerns with the respective teams and corrective measures will be implemented with immediate...", "datepublished": "2023-12-21"}], "individualproduct": [{"name": "Fairfield by Marriott Bengaluru Outer Ring Road"}, {"name": "Fairfield by Marriott Bengaluru Outer Ring Road"}, {"name": "Fairfield by Marriott Bengaluru Outer Ring Road"}, {"name": "Fairfield by Marriott Bengaluru Outer Ring Road"}, {"name": "Fairfield by Marriott Bengaluru Outer Ring Road"}, {"name": "Fairfield by Marriott Bengaluru Outer Ring Road"}, {"name": "Fairfield by Marriott Bengaluru Outer Ring Road"}, {"name": "Fairfield by Marriott Bengaluru Outer Ring Road"}, {"name": "Fairfield by Marriott Bengaluru Outer Ring Road"}, {"name": "Fairfield by Marriott Bengaluru Outer Ring Road"}, {"name": "Fairfield by Marriott Bengaluru Outer Ring Road"}, {"name": "Fairfield by Marriott Bengaluru Outer Ring Road"}]}}, {"kind": "customsearch#result", "title": "5-Star Hotel in Bangalore | Hyatt Centric MG Road Bangalore", "htmlTitle": "5-Star <b>Hotel</b> in <b>Bangalore</b> | Hyatt Centric MG Road <b>Bangalore</b>", "link": "https://www.hyatt.com/hyatt-centric/blrhy-hyatt-centric-mg-road-bangalore/", "displayLink": "www.hyatt.com", "snippet": "... Contact Us. Corporate Sites. About Us \u00b7 Careers \u00b7 Investor Relations \u00b7 Hyatt ... Hyatt Centric MG Road Bangalore. Map \u00b7 Call \u00b7 4.0. Book. This website uses\u00a0...", "htmlSnippet": "... <b>Contact</b> Us. Corporate Sites. About Us &middot; Careers &middot; Investor Relations &middot; Hyatt ... Hyatt Centric MG Road <b>Bangalore</b>. Map &middot; Call &middot; 4.0. <b>Book</b>. This website uses&nbsp;...", "cacheId": "oQyQO717otQJ", "formattedUrl": "https://www.hyatt.com/hyatt-centric/blrhy-hyatt-centric-mg-road-bangalore/", "htmlFormattedUrl": "https://www.hyatt.com/hyatt-centric/blrhy-hyatt-centric-mg-road-<b>bangalore</b>/", "pagemap": {"cse_thumbnail": [{"src": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRSyRUCD9yL1GrcpnOn7H49cFnqurgzsW3HhObVCp-BT6XDTNjssLvv_nM", "width": "259", "height": "194"}], "thumbnail": [{"src": "https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2018/07/06/1102/Hyatt-Centric-MG-Road-Bangalore-P086-Lobby-Check-In.jpg/Hyatt-Centric-MG-Road-Bangalore-P086-Lobby-Check-In.4x3.jpg"}], "metatags": [{"og:image": "https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2018/07/06/1102/Hyatt-Centric-MG-Road-Bangalore-P086-Lobby-Check-In.jpg/Hyatt-Centric-MG-Road-Bangalore-P086-Lobby-Check-In.4x3.jpg", "thumbnail": "https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2018/07/06/1102/Hyatt-Centric-MG-Road-Bangalore-P086-Lobby-Check-In.jpg/Hyatt-Centric-MG-Road-Bangalore-P086-Lobby-Check-In.4x3.jpg", "og:image:alt": "Stay at Hyatt Centric MG Road Bangalore, a 5-star hotel in the heart of Bangalore, India. Enjoy spacious rooms and suites, a 24/7 fitness center, top restaurants, and complimentary Wi-Fi.", "viewport": "width=device-width", "og:title": "5-Star Hotel in Bangalore | Hyatt Centric MG Road Bangalore", "og:url": "https://www.hyatt.com/hyatt-centric/blrhy-hyatt-centric-mg-road-bangalore", "next-head": "1", "og:description": "Stay at Hyatt Centric MG Road Bangalore, a 5-star hotel in the heart of Bangalore, India. Enjoy spacious rooms and suites, a 24/7 fitness center, top restaurants, and complimentary Wi-Fi."}], "cse_image": [{"src": "https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2018/07/06/1102/Hyatt-Centric-MG-Road-Bangalore-P086-Lobby-Check-In.jpg/Hyatt-Centric-MG-Road-Bangalore-P086-Lobby-Check-In.4x3.jpg"}]}}, {"kind": "customsearch#result", "title": "Holiday Inn Express & Suites Bengaluru OMR - Bengaluru,", "htmlTitle": "Holiday Inn Express &amp; Suites <b>Bengaluru</b> OMR - <b>Bengaluru</b>,", "link": "https://www.ihg.com/holidayinnexpress/hotels/us/en/bangalore/blrmr/hoteldetail", "displayLink": "www.ihg.com", "snippet": "Always check the hotel's cancellation policy before booking a rate. ... About IHG IHG Careers IHG Global Brands Hotel Development Need Help? Explore Hotels Email\u00a0...", "htmlSnippet": "Always check the <b>hotel&#39;s</b> cancellation policy before <b>booking</b> a rate. ... About IHG IHG Careers IHG Global Brands <b>Hotel</b> Development Need Help? Explore <b>Hotels Email</b>&nbsp;...", "formattedUrl": "https://www.ihg.com/holidayinnexpress/hotels/us/en/bangalore/.../hoteldetai...", "htmlFormattedUrl": "https://www.ihg.com/holidayinnexpress/<b>hotels</b>/us/en/<b>bangalore</b>/.../hoteldetai...", "pagemap": {"cse_thumbnail": [{"src": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQGHbPbhrxltZvMSQvDc3Ji_8pGvDVhrtlvZZJbSQsitJZeGXx_TtUe_Go", "width": "259", "height": "194"}], "imageobject": [{"caption": "All Day Dining"}, {"caption": "The Verandah - Al Fresco"}, {"caption": "Hotel Facade"}, {"caption": "Guest Room"}, {"caption": "Guest Room"}, {"caption": "Board Room"}, {"caption": "Junior Suite Room Without Balcony"}, {"caption": "Guest Room"}, {"caption": "Guest Room"}, {"caption": "Junior Suite Room With Balcony"}, {"caption": "Lobby Bar"}, {"caption": "Conference Room"}, {"caption": "All Day Dining"}, {"caption": "The Verandah - Al Fresco"}, {"caption": "Hotel Facade"}, {"caption": "Guest Room"}, {"caption": "Guest Room"}, {"caption": "Board Room"}, {"caption": "Junior Suite Room Without Balcony"}, {"caption": "Guest Room"}, {"caption": "Guest Room"}, {"caption": "Junior Suite Room With Balcony"}, {"caption": "Lobby Bar"}, {"caption": "Conference Room"}, {"caption": "All Day Dining"}, {"caption": "The Verandah - Al Fresco"}], "metatags": [{"template": "holiday-inn-express-hd-home", "og:image": "https://digital.ihg.com/is/image/ihg/holiday-inn-express-and-suites-bengaluru-6652888839-4x3", "apple-itunes-app": "app-id=368217298", "og:type": "website", "twitter:card": "summary_large_image", "twitter:title": "Holiday Inn Express & Suites Bengaluru OMR - Bengaluru,", "og:site_name": "IHG", "twitter:domain": "ihg.com", "og:title": "Holiday Inn Express & Suites Bengaluru OMR - Bengaluru,", "og:description": "Official site of Holiday Inn Express & Suites Bengaluru OMR. Stay Smart, rest, and recharge at Holiday Inn Express - Best Price Guarantee.", "twitter:creator": "@holidayinnexpress", "twitter:image:src": "https://digital.ihg.com/is/image/ihg/holiday-inn-express-and-suites-bengaluru-6652888839-4x3", "twitter:site": "@IHG", "viewport": "width=device-width, initial-scale=1", "twitter:description": "Official site of Holiday Inn Express & Suites Bengaluru OMR. Stay Smart, rest, and recharge at Holiday Inn Express - Best Price Guarantee.", "og:url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/bangalore/blrmr/hoteldetail", "format-detection": "telephone=no"}], "cse_image": [{"src": "https://digital.ihg.com/is/image/ihg/holiday-inn-express-and-suites-bengaluru-6652888839-4x3"}], "listitem": [{"item": "Home", "name": "Home", "position": "1"}, {"item": "Bengaluru Hotels", "name": "Bengaluru Hotels", "position": "3"}]}}]}
+{
+    "kind": "customsearch#search",
+    "url": {
+        "type": "application/json",
+        "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+    },
+    "queries": {
+        "request": [
+            {
+                "title": "Google Custom Search - Bangalore hotels booking email",
+                "totalResults": "34200000",
+                "searchTerms": "Bangalore hotels booking email",
+                "count": 10,
+                "startIndex": 1,
+                "language": "lang_en",
+                "inputEncoding": "utf8",
+                "outputEncoding": "utf8",
+                "safe": "off",
+                "cx": "5323d62a726e448d5",
+                "gl": "IN"
+            }
+        ],
+        "nextPage": [
+            {
+                "title": "Google Custom Search - Bangalore hotels booking email",
+                "totalResults": "34200000",
+                "searchTerms": "Bangalore hotels booking email",
+                "count": 10,
+                "startIndex": 11,
+                "language": "lang_en",
+                "inputEncoding": "utf8",
+                "outputEncoding": "utf8",
+                "safe": "off",
+                "cx": "5323d62a726e448d5",
+                "gl": "IN"
+            }
+        ]
+    },
+    "context": {
+        "title": "Margati Search"
+    },
+    "searchInformation": {
+        "searchTime": 0.320999,
+        "formattedSearchTime": "0.32",
+        "totalResults": "34200000",
+        "formattedTotalResults": "34,200,000"
+    },
+    "items": [
+        {
+            "kind": "customsearch#result",
+            "title": "Booking.com Customer Service",
+            "htmlTitle": "<b>Booking</b>.com Customer Service",
+            "link": "https://www.booking.com/customer-service.html",
+            "displayLink": "www.booking.com",
+            "snippet": "For anything urgent, you can call us 24/7 at a local or international phone number. Contact the property. For details about your stay, they usually know best.",
+            "htmlSnippet": "For anything urgent, you can call us 24/7 at a local or international phone number. <b>Contact</b> the property. For details about your <b>stay</b>, they usually know <b>best</b>.",
+            "cacheId": "YpM-9WlmyjYJ",
+            "formattedUrl": "https://www.booking.com/customer-service.html",
+            "htmlFormattedUrl": "https://www.<b>booking</b>.com/customer-service.html",
+            "pagemap": {
+                "answer": [
+                    {
+                        "text": "Yes \u2013 any cancellation fees are determined by the property and listed in your cancellation policy. You'll pay any additional costs to the property."
+                    },
+                    {
+                        "text": "If you have a free cancellation booking, you won't pay a cancellation fee. If your booking isn't free to cancel anymore or is non-refundable, you may incur a cancellation fee. Any cancellation..."
+                    },
+                    {
+                        "text": "Generally, the property is responsible for charging your card. If payment is instead handled by Booking.com, this will be stated clearly in your booking confirmation. You usually can expect..."
+                    },
+                    {
+                        "text": "Yes! You can make changes to your booking from your confirmation email or at Booking.com. Depending on the property's policy, you can do the following: Change check-in/out times Change dates..."
+                    },
+                    {
+                        "text": "Be sure to check your email inbox, spam, and junk folders. If you still can't find your confirmation, go to booking.com/help and we'll resend it to you."
+                    },
+                    {
+                        "text": "You'll need a valid credit card to guarantee your reservation with most properties. However, we offer a number of hotels that will guarantee your booking without a card. You can also make a..."
+                    },
+                    {
+                        "text": "The charge you see could be any one of the following: Pre-authorization: A pre-authorization is just a validity check that temporarily blocks an amount roughly equivalent to the cost of your..."
+                    },
+                    {
+                        "text": "Pet policies are always displayed on the property\u2019s page under \"House rules.\""
+                    }
+                ],
+                "metatags": [
+                    {
+                        "twitter:app:id:googleplay": "com.booking",
+                        "al:ios:app_name": "Booking.com Hotel Reservations",
+                        "twitter:app:id:ipad": "367003839",
+                        "al:android:package": "com.booking",
+                        "twitter:app:name:googleplay": "Booking.com Hotel Reservations",
+                        "twitter:app:id:iphone": "367003839",
+                        "al:ios:app_store_id": "367003839",
+                        "referrer": "origin",
+                        "booking-verification": "UmFuZG9tSVa5L8A9wjb_EqHhILknAQXu9ZtU0h5dbBLlwCpWmRcvC9NKUwrZyaymlQaQK7RFD5nmtkILVvrVuVrKwdfLoVcd4_YRneC6PKWgWxvb6m7ZiT3wclauGQtW_J67BrLcNOEX_IL9wZNdz7XuzDiUIzvCUK21k8DoWCYjzEk-TXwOT_wqs259-Gzd0mqgHoWOUm1n5XB3hcLNbeLKAjLvGSETUhAdzrouDuih9x5gGrWq3PAxlUfoYvuR0fXTwVnpBHFJx8jbs1tRx4rR0lqbOX9YrgLEX28B5zifDsbtTskHtDXAFLwkqhYAzIM_-5n9AWUDP9O3Gp0R8aP0tlXSTxR73Dh1gdnLWgYiUCmkNh0Qnv6YHUaAutNBBRV6Kbu4j6CXgTzm5QpZMDUf9fAxj5tEn0h0SEUYTxfCX4y4VVZqVyTceZN9BFHYL55fOTjRa2LZBNwTCKG1AXDbcFORjMp-T1P_FtyDKtLOkRBxQFrnWUn2pV51zQX06i1q80o6syY",
+                        "twitter:app:name:ipad": "Booking.com Hotel Reservations Worldwide & Hotel Deals",
+                        "viewport": "width=device-width, initial-scale=1.0",
+                        "apple-mobile-web-app-capable": "no",
+                        "name": "Booking.com",
+                        "position": "1",
+                        "al:android:app_name": "Booking.com Hotel Reservation",
+                        "apple-touch-fullscreen": "yes"
+                    }
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Telephone numbers and addresses | Help and contacts",
+            "htmlTitle": "Telephone numbers and addresses | Help and contacts",
+            "link": "https://www.britishairways.com/en-us/information/help-and-contacts/contact-us",
+            "displayLink": "www.britishairways.com",
+            "snippet": "Contact details for our worldwide offices. ... Have you already booked? Please have your booking reference ready when you call.",
+            "htmlSnippet": "<b>Contact</b> details for our worldwide offices. ... Have you already <b>booked</b>? Please have your <b>booking</b> reference ready when you call.",
+            "cacheId": "Vow9O4ZjWfYJ",
+            "formattedUrl": "https://www.britishairways.com/en-us/information/help-and.../contact-us",
+            "htmlFormattedUrl": "https://www.britishairways.com/en-us/information/help-and.../contact-us",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR4xvKNBMnslGwu8slA3owaI7x1JxaPIYOcgabNmRoVjVET2duYO1BSHQ",
+                        "width": "160",
+                        "height": "125"
+                    }
+                ],
+                "metatags": [
+                    {
+                        "og:image": "http://www.britishairways.com/assets/images/global/site/facebookImages/default.png",
+                        "referrer": "no-referrer-when-downgrade",
+                        "viewport": "width=device-width, initial-scale=1",
+                        "og:title": "Telephone numbers and addresses | Help and contacts"
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "http://www.britishairways.com/assets/images/global/site/facebookImages/default.png"
+                    }
+                ],
+                "listitem": [
+                    {
+                        "item": "Home",
+                        "name": "Home",
+                        "position": "1"
+                    },
+                    {
+                        "item": "Information",
+                        "name": "Information",
+                        "position": "2"
+                    },
+                    {
+                        "item": "Help and contacts",
+                        "name": "Help and contacts",
+                        "position": "4"
+                    },
+                    {
+                        "name": "Contact us",
+                        "position": "5"
+                    }
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Contact Us - Booking.com",
+            "htmlTitle": "Contact Us - Booking.com",
+            "link": "https://www.booking.com/content/contact-us.html",
+            "displayLink": "www.booking.com",
+            "snippet": "Corporate Contact. Need help with a booking? Visit My Bookings page; Do you have a question? Go to our Help Center; Are you a property owner who needs help?",
+            "htmlSnippet": "Corporate <b>Contact</b>. Need help with a <b>booking</b>? Visit My <b>Bookings</b> page; Do you have a question? Go to our Help Center; Are you a property owner who needs help?",
+            "cacheId": "OJOasdwi62gJ",
+            "formattedUrl": "https://www.booking.com/content/contact-us.html",
+            "htmlFormattedUrl": "https://www.<b>booking</b>.com/content/contact-us.html",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR4oMJZZcakPR5v8ExCrHfXfQT_xITj4MEb-j06axr6wWyVsmn5nDlpU4I",
+                        "width": "310",
+                        "height": "163"
+                    }
+                ],
+                "metatags": [
+                    {
+                        "p:domain_verify": "ff7f0b90ebb93e5bf7c7cafe77640ec1",
+                        "twitter:app:id:googleplay": "com.booking",
+                        "og:image": "https://cf.bstatic.com/static/img/fb/3/e4bb7533eaf64f88aca4ee624f68aba1db6c203e.jpg",
+                        "twitter:card": "summary_large_image",
+                        "og:site_name": "Booking.com",
+                        "al:android:package": "com.booking",
+                        "twitter:app:name:googleplay": "Booking.com Hotel Reservations",
+                        "twitter:app:id:iphone": "367003839",
+                        "twitter:creator": "@bookingcom",
+                        "og:description": "Whether you\u2019re looking for hotels, homes, or vacation rentals, you\u2019ll always find the guaranteed best price. Browse our  accommodations in over 85,000 destinations.",
+                        "al:ios:app_store_id": "367003839",
+                        "twitter:image": "https://cf.bstatic.com/static/img/twitter-image-else/566c7081f1deeaca39957e96365c3908f83b95af.jpg",
+                        "twitter:site": "@bookingcom",
+                        "wb:webmaster": "48970bbca45d28c2",
+                        "twitter:title": "Booking.com: The largest selection of hotels, homes, and vacation rentals",
+                        "og:type": "company",
+                        "al:ios:app_name": "Booking.com Hotel Reservations",
+                        "og:title": "Booking.com: The largest selection of hotels, homes, and vacation rentals",
+                        "twitter:app:id:ipad": "367003839",
+                        "fb:pages": "131840030178250, 1425349334428496, 117615518393985, 1565844503706287, 517612321758712, 1668799180037291, 265097377176252, 1643712662515912, 303492549842824, 1638321783047271, 809709019119342, 959185470826086, 217466488652137, 641365839348517, 203741606405114",
+                        "referrer": "origin",
+                        "fb:app_id": "145362478954725",
+                        "booking-verification": "UmFuZG9tSVaurixDF-oRqAUAH78sWO2vrG5PnhBY7RaHGaSyFmCVXrlyb57iSgjJy166jE64GVvu-ewU5kEHSvqVETDNoMLLAR0tfJK4OqNDY2T5r3ylCKPVJOMAlW-193OvJjl_0eBV7VPfPqvpe2rDE2QEsTr_ZIQi_VTQp9Ck7c74Xr7BX6us8kRudggK4VDaeN1xVwG50-vDvy6aartqMTaj0_CaNTLcAeglUDoqgR-VFFFNsYibeqaofc2Vim9ISIJbrjipPffXMKRGl8yGyXyCdSFKSVX01JYeb70BtPrEPqMeqUx-ajxllOWJYh9YNQS7BXy9GbVjwiFIQ6qIrMn9ETmXGlFF5qmrup3xbPrm4zwbD6zRY9081fbRRmUDJ1-KoyTpG5D6h2MojIBne6MlhEKa0LXjApfu8t1qZAqWsRX-_Z-BQrmtEgMfoS642PvtZAf0IhZqz1ARXL0hrDDPP7PtmE_yu7fBaETFV8MAE8zOSv5e91ixfTSH",
+                        "twitter:app:name:ipad": "Booking.com Hotel Reservations Worldwide & Hotel Deals",
+                        "viewport": "width=device-width, initial-scale=1",
+                        "twitter:description": "Whether you\u2019re looking for hotels, homes, or vacation rentals, you\u2019ll always find the guaranteed best price. Browse our  accommodations in over 85,000 destinations.",
+                        "og:locale": "en_US",
+                        "og:url": "https://www.booking.com/content/contact-us.html",
+                        "al:android:app_name": "Booking.com Hotel Reservation"
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "https://cf.bstatic.com/static/img/fb/3/e4bb7533eaf64f88aca4ee624f68aba1db6c203e.jpg"
+                    }
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Hotel in Bangalore | Renaissance Bengaluru Race Course Hotel",
+            "htmlTitle": "<b>Hotel</b> in <b>Bangalore</b> | Renaissance <b>Bengaluru</b> Race Course <b>Hotel</b>",
+            "link": "https://www.marriott.com/en-us/hotels/blrbh-renaissance-bengaluru-race-course-hotel/overview/",
+            "displayLink": "www.marriott.com",
+            "snippet": "Book our five-star business hotel in Bangalore, India, for stylish hotel amenities and a culture-forward location at Renaissance Bengaluru Race Course\u00a0...",
+            "htmlSnippet": "<b>Book</b> our five-star business <b>hotel</b> in <b>Bangalore</b>, India, for stylish <b>hotel</b> amenities and a culture-forward location at Renaissance <b>Bengaluru</b> Race Course&nbsp;...",
+            "cacheId": "BqA-mJn5H88J",
+            "formattedUrl": "https://www.marriott.com/en-us/hotels/blrbh-renaissance.../overview/",
+            "htmlFormattedUrl": "https://www.marriott.com/en-us/<b>hotels</b>/blrbh-renaissance.../overview/",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQD_Xkxmn6haXiuS_PoOCT8iwt5PLls65EmgKvs-Hq-L-vvVJEvBMMqTcTa",
+                        "width": "313",
+                        "height": "161"
+                    }
+                ],
+                "review": [
+                    {
+                        "ratingstars": "5.0",
+                        "reviewdate": "2024-02-19",
+                        "reviewer": "Jyothika"
+                    },
+                    {
+                        "datecreated": "2024-02-19",
+                        "reviewbody": "I was impressed by the professionalism and warmth of your staff.In particular, I would like to extend my gratitude to Aditya at the front desk. His attentiveness, friendliness, and efficiency...",
+                        "headline": "Exceptional Stay and Outstanding Service",
+                        "datepublished": "2024-02-19"
+                    },
+                    {
+                        "datecreated": "2024-02-15",
+                        "reviewbody": "Only the thing is how to use the points",
+                        "headline": "Nothing to express",
+                        "datepublished": "2024-02-15"
+                    },
+                    {
+                        "datecreated": "2024-02-14",
+                        "reviewbody": "We enjoyed every bit of ou stay at the Renaissance.",
+                        "headline": "Wonderfully enjoyable stay!!",
+                        "datepublished": "2024-02-15"
+                    },
+                    {
+                        "datecreated": "2024-02-14",
+                        "reviewbody": "My stay at the Renaissance was a lovely and pleasant experience. I recommend the Lush restaurant and would encourage guests to make use of the rooftop pool. The rooms are spotless and the facilitie...",
+                        "headline": "Amazing February Stay",
+                        "datepublished": "2024-02-14"
+                    },
+                    {
+                        "datecreated": "2024-02-14",
+                        "reviewbody": "I really like to recommend this hotel to my other colleagues as well , specially for the worm welcome from front office prodyot for personal services given to me, Again special thanks to Prodyot...",
+                        "headline": "It was a great stay",
+                        "datepublished": "2024-02-15"
+                    },
+                    {
+                        "datecreated": "2024-02-12",
+                        "reviewbody": "Extremely comfortable stay. Great hospitality starting from checkin to check out. Staff makes you feel special for your elite Bon Voy status",
+                        "headline": "4 Nights Stay",
+                        "datepublished": "2024-02-12"
+                    },
+                    {
+                        "datecreated": "2024-02-11",
+                        "reviewbody": "Thank you for making my visit comfortable and remarkable",
+                        "headline": "Pleasant Experience",
+                        "datepublished": "2024-02-11"
+                    },
+                    {
+                        "datecreated": "2024-02-06",
+                        "reviewbody": "Overall a good hotel to stay in. Excellent food and attentive staff. Rooms are good with views of the racecourse.",
+                        "headline": "Bengaluru stay",
+                        "datepublished": "2024-02-06"
+                    },
+                    {
+                        "datecreated": "2024-02-02",
+                        "reviewbody": "Great experience staying at the hotel. Hotel staff especially Armaan Mittal did everything to correct a small issue we had with the room and making sure we felt comfortable. Food was excellent...",
+                        "headline": "Excellent service by housekeeping manager",
+                        "datepublished": "2024-02-02"
+                    },
+                    {
+                        "datecreated": "2024-01-27",
+                        "reviewbody": "It was our first time in India and arriving at the hotel we felt immediately at home. The decor is beautiful, the staff friendly and we got a nice upgrade, it felt like a safe harbour after...",
+                        "headline": "Faultless",
+                        "datepublished": "2024-01-27"
+                    }
+                ],
+                "person": [
+                    {
+                        "name": "Jyothika"
+                    },
+                    {
+                        "name": "Ambresh"
+                    },
+                    {
+                        "name": "Sene"
+                    },
+                    {
+                        "name": "English Female"
+                    },
+                    {
+                        "name": "Anonymous"
+                    },
+                    {
+                        "name": "Sukhvinder"
+                    },
+                    {
+                        "name": "Fatma"
+                    },
+                    {
+                        "name": "Laxman M"
+                    },
+                    {
+                        "name": "Deepsatrennblore"
+                    },
+                    {
+                        "name": "Catherine"
+                    }
+                ],
+                "hreview": [
+                    {
+                        "dtreviewed": "2024-02-19",
+                        "description": "I was impressed by the professionalism and warmth of your staff.In particular, I would like to extend my gratitude to Aditya at the front desk. His attentiveness, friendliness, and efficiency..."
+                    },
+                    {
+                        "dtreviewed": "2024-02-15",
+                        "description": "Only the thing is how to use the points"
+                    },
+                    {
+                        "dtreviewed": "2024-02-15",
+                        "description": "We enjoyed every bit of ou stay at the Renaissance."
+                    },
+                    {
+                        "dtreviewed": "2024-02-14",
+                        "description": "My stay at the Renaissance was a lovely and pleasant experience. I recommend the Lush restaurant and would encourage guests to make use of the rooftop pool. The rooms are spotless and the facilitie..."
+                    },
+                    {
+                        "dtreviewed": "2024-02-15",
+                        "description": "I really like to recommend this hotel to my other colleagues as well , specially for the worm welcome from front office prodyot for personal services given to me, Again special thanks to Prodyot..."
+                    },
+                    {
+                        "dtreviewed": "2024-02-12",
+                        "description": "Extremely comfortable stay. Great hospitality starting from checkin to check out. Staff makes you feel special for your elite Bon Voy status"
+                    },
+                    {
+                        "dtreviewed": "2024-02-11",
+                        "description": "Thank you for making my visit comfortable and remarkable"
+                    },
+                    {
+                        "dtreviewed": "2024-02-06",
+                        "description": "Overall a good hotel to stay in. Excellent food and attentive staff. Rooms are good with views of the racecourse."
+                    },
+                    {
+                        "dtreviewed": "2024-02-02",
+                        "description": "Great experience staying at the hotel. Hotel staff especially Armaan Mittal did everything to correct a small issue we had with the room and making sure we felt comfortable. Food was excellent..."
+                    },
+                    {
+                        "dtreviewed": "2024-01-27",
+                        "description": "It was our first time in India and arriving at the hotel we felt immediately at home. The decor is beautiful, the staff friendly and we got a nice upgrade, it felt like a safe harbour after..."
+                    }
+                ],
+                "aggregaterating": [
+                    {
+                        "ratingvalue": "4.5",
+                        "reviewcount": "542",
+                        "bestrating": "5"
+                    },
+                    {
+                        "ratingvalue": "4.5",
+                        "reviewcount": "542",
+                        "bestrating": "5"
+                    }
+                ],
+                "rating": [
+                    {
+                        "ratingvalue": "5",
+                        "bestrating": "5"
+                    },
+                    {
+                        "ratingvalue": "4",
+                        "bestrating": "5"
+                    },
+                    {
+                        "ratingvalue": "5",
+                        "bestrating": "5"
+                    },
+                    {
+                        "ratingvalue": "5",
+                        "bestrating": "5"
+                    },
+                    {
+                        "ratingvalue": "5",
+                        "bestrating": "5"
+                    },
+                    {
+                        "ratingvalue": "5",
+                        "bestrating": "5"
+                    },
+                    {
+                        "ratingvalue": "5",
+                        "bestrating": "5"
+                    },
+                    {
+                        "ratingvalue": "4",
+                        "bestrating": "5"
+                    },
+                    {
+                        "ratingvalue": "5",
+                        "bestrating": "5"
+                    },
+                    {
+                        "ratingvalue": "5",
+                        "bestrating": "5"
+                    }
+                ],
+                "metatags": [
+                    {
+                        "template": "marriott-hws-core-content-page",
+                        "apple-mobile-web-app-status-bar-style": "black",
+                        "bvdatemodified": "2024-02-29",
+                        "viewport": "width=device-width, initial-scale=1",
+                        "apple-mobile-web-app-capable": "yes",
+                        "mobile-web-app-capable": "yes"
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "https://cache.marriott.com/content/dam/marriott-digital/br/global-property-shared/en_us/logo/assets/br_logo_L.png"
+                    }
+                ],
+                "individualproduct": [
+                    {
+                        "name": "Renaissance Bengaluru Race Course Hotel"
+                    },
+                    {
+                        "name": "Renaissance Bengaluru Race Course Hotel"
+                    },
+                    {
+                        "name": "Renaissance Bengaluru Race Course Hotel"
+                    },
+                    {
+                        "name": "Renaissance Bengaluru Race Course Hotel"
+                    },
+                    {
+                        "name": "Renaissance Bengaluru Race Course Hotel"
+                    },
+                    {
+                        "name": "Renaissance Bengaluru Race Course Hotel"
+                    },
+                    {
+                        "name": "Renaissance Bengaluru Race Course Hotel"
+                    },
+                    {
+                        "name": "Renaissance Bengaluru Race Course Hotel"
+                    },
+                    {
+                        "name": "Renaissance Bengaluru Race Course Hotel"
+                    },
+                    {
+                        "name": "Renaissance Bengaluru Race Course Hotel"
+                    },
+                    {
+                        "name": "Renaissance Bengaluru Race Course Hotel"
+                    },
+                    {
+                        "name": "Renaissance Bengaluru Race Course Hotel"
+                    }
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Taj Bangalore - 5 Star Hotel near Bangalore Airport | Taj Hotels",
+            "htmlTitle": "Taj <b>Bangalore</b> - 5 Star <b>Hotel</b> near <b>Bangalore</b> Airport | Taj <b>Hotels</b>",
+            "link": "https://www.tajhotels.com/en-in/taj/taj-bangalore/",
+            "displayLink": "www.tajhotels.com",
+            "snippet": "Taj Bangalore is strategically located near Bangalore Airport. A 5-star hotel with sleek architecture, plush rooms with views and top-notch wellness\u00a0...",
+            "htmlSnippet": "Taj <b>Bangalore</b> is strategically located near <b>Bangalore</b> Airport. A 5-star <b>hotel</b> with sleek architecture, plush rooms with views and top-notch wellness&nbsp;...",
+            "cacheId": "dZd7alsCWEcJ",
+            "formattedUrl": "https://www.tajhotels.com/en-in/taj/taj-bangalore/",
+            "htmlFormattedUrl": "https://www.taj<b>hotels</b>.com/en-in/taj/taj-<b>bangalore</b>/",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS6W5qzGhvrKnLejWfPPkpSEG3Zw3VEIUeIA7Fsqa-YkG_0VMNxP89LzXc",
+                        "width": "227",
+                        "height": "222"
+                    }
+                ],
+                "metatags": [
+                    {
+                        "og:image": "https://www.tajhotels.com:443/content/dam/luxury/hotels/taj-bangalore/images/gallery/1 Facade.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+                        "twitter:card": "product",
+                        "twitter:title": "Taj Bangalore - 5 Star Hotel near Bangalore Airport | Taj Hotels",
+                        "og:type": "website",
+                        "og:site_name": "Taj",
+                        "og:title": "Taj Bangalore - 5 Star Hotel near Bangalore Airport | Taj Hotels",
+                        "og:description": "Taj Bangalore is strategically located near Bangalore Airport. A 5-star hotel with sleek architecture, plush rooms with views and top-notch wellness facilities. Book now!",
+                        "twitter:image": "https://www.tajhotels.com:443/content/dam/luxury/hotels/taj-bangalore/images/gallery/1 Facade.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+                        "twitter:site": "@taj_team_build",
+                        "viewport": "width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no",
+                        "twitter:description": "Taj Bangalore is strategically located near Bangalore Airport. A 5-star hotel with sleek architecture, plush rooms with views and top-notch wellness facilities. Book now!",
+                        "og:url": "https://www.tajhotels.com/en-in/taj/taj-bangalore/",
+                        "tdl-sso-client_id": "IHCL-WEB-APP"
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "https://www.tajhotels.com/content/dam/qmin/Qmin--Web-banner--Mobile.png/jcr:content/renditions/cq5dam.web.1280.1280.png"
+                    }
+                ],
+                "listitem": [
+                    {
+                        "position": "0"
+                    },
+                    {
+                        "position": "1"
+                    }
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Hotel in Malleswaram | Sheraton Grand Bangalore Hotel at Brigade ...",
+            "htmlTitle": "<b>Hotel</b> in Malleswaram | Sheraton Grand <b>Bangalore Hotel</b> at Brigade ...",
+            "link": "https://www.marriott.com/en-us/hotels/blrgs-sheraton-grand-bangalore-hotel-at-brigade-gateway/overview/",
+            "displayLink": "www.marriott.com",
+            "snippet": "Experience luxury in Bengaluru, India, with 5-star hotel rooms, a wide array of dining options and an on-site spa at Sheraton Grand Bangalore Hotel at\u00a0...",
+            "htmlSnippet": "Experience luxury in <b>Bengaluru</b>, India, with 5-star <b>hotel</b> rooms, a wide array of dining options and an on-site spa at Sheraton Grand <b>Bangalore Hotel</b> at&nbsp;...",
+            "cacheId": "lQ227a3oEfMJ",
+            "formattedUrl": "https://www.marriott.com/en-us/hotels/blrgs...bangalore-hotel.../overview/",
+            "htmlFormattedUrl": "https://www.marriott.com/en-us/<b>hotels</b>/blrgs...<b>bangalore</b>-hotel.../overview/",
+            "pagemap": {
+                "review": [
+                    {
+                        "ratingstars": "5.0",
+                        "reviewdate": "2024-02-23",
+                        "reviewer": "Christian Gregory"
+                    },
+                    {
+                        "datecreated": "2024-02-23",
+                        "reviewbody": "My stay at the Grand Bangalore has been my most valued travel experience. I would most certainly recommend it to others traveling to India from the USA. Not only would I return for the thoughtful...",
+                        "headline": "Excellent business and travel trip",
+                        "datepublished": "2024-02-23"
+                    },
+                    {
+                        "datecreated": "2024-02-20",
+                        "reviewbody": "Good service from staff ,good food ,clean room and club lounge is very good 24 hours service",
+                        "headline": "Good",
+                        "datepublished": "2024-02-20"
+                    },
+                    {
+                        "datecreated": "2024-02-19",
+                        "reviewbody": "great hotel, excellent customer service",
+                        "headline": "VS",
+                        "datepublished": "2024-02-19"
+                    },
+                    {
+                        "datecreated": "2024-02-17",
+                        "reviewbody": "The staffs were very prompt and courteous to any such requirement. The main restaurant buffet was also well spread.",
+                        "headline": "Very good",
+                        "datepublished": "2024-02-17"
+                    },
+                    {
+                        "datecreated": "2024-02-17",
+                        "reviewbody": "My first home the hotel and team is excellent \ud83d\udc4c \ud83d\udc4f \ud83d\udc4d \ud83d\ude00 \ud83d\ude4c",
+                        "headline": "Fantastic stay",
+                        "datepublished": "2024-02-18"
+                    },
+                    {
+                        "datecreated": "2024-02-16",
+                        "reviewbody": "I always like staying in this hotel when I am in Bengaluru. The area is quiet, close to the airport and have restaurants and shopping in walking distance.",
+                        "headline": "Great place for a week in Bengaluru",
+                        "datepublished": "2024-02-16"
+                    },
+                    {
+                        "datecreated": "2024-02-11",
+                        "reviewbody": "The stay at Sheraton was really amazing. The property, buffet spread, amenities everything was upto the mark. Love to visit again soon.",
+                        "headline": "Excellent stay",
+                        "datepublished": "2024-02-12"
+                    },
+                    {
+                        "datecreated": "2024-02-10",
+                        "reviewbody": "Good experience during the stay",
+                        "headline": "Sheraton bangalore",
+                        "datepublished": "2024-02-10"
+                    },
+                    {
+                        "datecreated": "2024-02-08",
+                        "reviewbody": "one the best hotel i ever stayed.",
+                        "headline": "best hotel in bangalore",
+                        "datepublished": "2024-02-08"
+                    },
+                    {
+                        "datecreated": "2024-02-07",
+                        "reviewbody": "Very nice. One can enjoy the food and beverages may be at room, hall or in pool. All staff members are very cordial and ready to help with smile. Found to be very cleaned.",
+                        "headline": "Rest with pleasure and forget your hectic day.",
+                        "datepublished": "2024-02-08"
+                    }
+                ],
+                "person": [
+                    {
+                        "name": "Christian Gregory"
+                    },
+                    {
+                        "name": "JITHESH"
+                    },
+                    {
+                        "name": "VS"
+                    },
+                    {
+                        "name": "Surabid Paul"
+                    },
+                    {
+                        "name": "Mahendra"
+                    },
+                    {
+                        "name": "Jorn Ostby"
+                    },
+                    {
+                        "name": "Bhavya"
+                    },
+                    {
+                        "name": "Sneh"
+                    },
+                    {
+                        "name": "yash"
+                    },
+                    {
+                        "name": "Anonymous"
+                    }
+                ],
+                "hreview": [
+                    {
+                        "dtreviewed": "2024-02-23",
+                        "description": "My stay at the Grand Bangalore has been my most valued travel experience. I would most certainly recommend it to others traveling to India from the USA. Not only would I return for the thoughtful..."
+                    },
+                    {
+                        "dtreviewed": "2024-02-20",
+                        "description": "Good service from staff ,good food ,clean room and club lounge is very good 24 hours service"
+                    },
+                    {
+                        "dtreviewed": "2024-02-19",
+                        "description": "great hotel, excellent customer service"
+                    },
+                    {
+                        "dtreviewed": "2024-02-17",
+                        "description": "The staffs were very prompt and courteous to any such requirement. The main restaurant buffet was also well spread."
+                    },
+                    {
+                        "dtreviewed": "2024-02-18",
+                        "description": "My first home the hotel and team is excellent \ud83d\udc4c \ud83d\udc4f \ud83d\udc4d \ud83d\ude00 \ud83d\ude4c"
+                    },
+                    {
+                        "dtreviewed": "2024-02-16",
+                        "description": "I always like staying in this hotel when I am in Bengaluru. The area is quiet, close to the airport and have restaurants and shopping in walking distance."
+                    },
+                    {
+                        "dtreviewed": "2024-02-12",
+                        "description": "The stay at Sheraton was really amazing. The property, buffet spread, amenities everything was upto the mark. Love to visit again soon."
+                    },
+                    {
+                        "dtreviewed": "2024-02-10",
+                        "description": "Good experience during the stay"
+                    },
+                    {
+                        "dtreviewed": "2024-02-08",
+                        "description": "one the best hotel i ever stayed."
+                    },
+                    {
+                        "dtreviewed": "2024-02-08",
+                        "description": "Very nice. One can enjoy the food and beverages may be at room, hall or in pool. All staff members are very cordial and ready to help with smile. Found to be very cleaned."
+                    }
+                ],
+                "aggregaterating": [
+                    {
+                        "ratingvalue": "4.5",
+                        "reviewcount": "584",
+                        "bestrating": "5"
+                    },
+                    {
+                        "ratingvalue": "4.5",
+                        "reviewcount": "584",
+                        "bestrating": "5"
+                    }
+                ],
+                "rating": [
+                    {
+                        "ratingvalue": "5",
+                        "bestrating": "5"
+                    },
+                    {
+                        "ratingvalue": "5",
+                        "bestrating": "5"
+                    },
+                    {
+                        "ratingvalue": "5",
+                        "bestrating": "5"
+                    },
+                    {
+                        "ratingvalue": "4",
+                        "bestrating": "5"
+                    },
+                    {
+                        "ratingvalue": "5",
+                        "bestrating": "5"
+                    },
+                    {
+                        "ratingvalue": "5",
+                        "bestrating": "5"
+                    },
+                    {
+                        "ratingvalue": "5",
+                        "bestrating": "5"
+                    },
+                    {
+                        "ratingvalue": "4",
+                        "bestrating": "5"
+                    },
+                    {
+                        "ratingvalue": "5",
+                        "bestrating": "5"
+                    },
+                    {
+                        "ratingvalue": "4",
+                        "bestrating": "5"
+                    }
+                ],
+                "metatags": [
+                    {
+                        "template": "marriott-hws-core-content-page",
+                        "apple-mobile-web-app-status-bar-style": "black",
+                        "bvdatemodified": "2024-02-29",
+                        "viewport": "width=device-width, initial-scale=1",
+                        "apple-mobile-web-app-capable": "yes",
+                        "mobile-web-app-capable": "yes"
+                    }
+                ],
+                "individualproduct": [
+                    {
+                        "name": "Sheraton Grand Bangalore Hotel at Brigade Gateway"
+                    },
+                    {
+                        "name": "Sheraton Grand Bangalore Hotel at Brigade Gateway"
+                    },
+                    {
+                        "name": "Sheraton Grand Bangalore Hotel at Brigade Gateway"
+                    },
+                    {
+                        "name": "Sheraton Grand Bangalore Hotel at Brigade Gateway"
+                    },
+                    {
+                        "name": "Sheraton Grand Bangalore Hotel at Brigade Gateway"
+                    },
+                    {
+                        "name": "Sheraton Grand Bangalore Hotel at Brigade Gateway"
+                    },
+                    {
+                        "name": "Sheraton Grand Bangalore Hotel at Brigade Gateway"
+                    },
+                    {
+                        "name": "Sheraton Grand Bangalore Hotel at Brigade Gateway"
+                    },
+                    {
+                        "name": "Sheraton Grand Bangalore Hotel at Brigade Gateway"
+                    },
+                    {
+                        "name": "Sheraton Grand Bangalore Hotel at Brigade Gateway"
+                    },
+                    {
+                        "name": "Sheraton Grand Bangalore Hotel at Brigade Gateway"
+                    },
+                    {
+                        "name": "Sheraton Grand Bangalore Hotel at Brigade Gateway"
+                    }
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Hotels in Bangalore - Hilton Bangalore Embassy GolfLinks",
+            "htmlTitle": "<b>Hotels</b> in <b>Bangalore</b> - Hilton <b>Bangalore</b> Embassy GolfLinks",
+            "link": "https://www.hilton.com/en/hotels/blrrehi-hilton-bangalore-embassy-golflinks/",
+            "displayLink": "www.hilton.com",
+            "snippet": "Located within the Embassy GolfLinks Business Park, Hilton in Bangalore is an hour drive from the airport, and six km from Bangalore city center. Book Now.",
+            "htmlSnippet": "Located within the Embassy GolfLinks Business Park, Hilton in <b>Bangalore</b> is an hour drive from the airport, and six km from <b>Bangalore</b> city center. <b>Book</b> Now.",
+            "cacheId": "y_tDvDrfR-sJ",
+            "formattedUrl": "https://www.hilton.com/.../hotels/blrrehi-hilton-bangalore-embassy-golflink...",
+            "htmlFormattedUrl": "https://www.hilton.com/.../<b>hotels</b>/blrrehi-hilton-<b>bangalore</b>-embassy-golflink...",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSValXfEUJPJjXa-tbKMMq32tDyWqXYjeNMhbzxPZbtKS5Z-6vEm7vV",
+                        "width": "66",
+                        "height": "50"
+                    }
+                ],
+                "metatags": [
+                    {
+                        "og:image": "https://www.hilton.com/modules/assets/svgs/logos/HI.svg",
+                        "twitter:card": "summary",
+                        "og:type": "website",
+                        "og:site_name": "Hilton",
+                        "og:title": "Hotels in Bangalore - Hilton Bangalore Embassy GolfLinks",
+                        "og:description": "Located within the Embassy GolfLinks Business Park, Hilton in Bangalore is an hour drive from the airport, and six km from Bangalore city center. Book Now",
+                        "dx-version": "dx-property-ui:228183",
+                        "next-head-count": "21",
+                        "fb:app_id": "253862148111843",
+                        "twitter:site": "@Hilton",
+                        "viewport": "width=device-width",
+                        "dx-ui-service": "property-ui",
+                        "og:url": "https://www.hilton.com/en/hotels/blrrehi-hilton-bangalore-embassy-golflinks/"
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "https://www.hilton.com/modules/assets/svgs/logos/HI.svg"
+                    }
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "4-Star Hotels in Bangalore | Fairfield by Marriott Bengaluru Outer ...",
+            "htmlTitle": "4-Star <b>Hotels</b> in <b>Bangalore</b> | Fairfield by Marriott <b>Bengaluru</b> Outer ...",
+            "link": "https://www.marriott.com/en-us/hotels/blrfi-fairfield-bengaluru-outer-ring-road/overview/",
+            "displayLink": "www.marriott.com",
+            "snippet": "Stay at Fairfield by Marriott Bengaluru Outer Ring Road, a modern hotel in Bellandur, Bangalore, with superb dining, a tranquil spa, pool and fitness\u00a0...",
+            "htmlSnippet": "<b>Stay</b> at Fairfield by Marriott <b>Bengaluru</b> Outer Ring Road, a modern <b>hotel</b> in Bellandur, <b>Bangalore</b>, with superb dining, a tranquil spa, pool and fitness&nbsp;...",
+            "cacheId": "A0CkuFIvpPIJ",
+            "formattedUrl": "https://www.marriott.com/en-us/hotels/blrfi-fairfield...outer.../overview/",
+            "htmlFormattedUrl": "https://www.marriott.com/en-us/<b>hotels</b>/blrfi-fairfield...outer.../overview/",
+            "pagemap": {
+                "review": [
+                    {
+                        "ratingstars": "5.0",
+                        "reviewdate": "2024-02-10",
+                        "reviewer": "Cass"
+                    },
+                    {
+                        "datecreated": "2024-02-10",
+                        "reviewbody": "I recently had long stay in Bengeluru but the staff were all so friendly and accommodating that it truly felt like a home away from home by the end. The food and attention to detail in the...",
+                        "headline": "A month long stay",
+                        "datepublished": "2024-02-10"
+                    },
+                    {
+                        "datecreated": "2024-01-30",
+                        "reviewbody": "Nice stay . Excellent food and hospitality.",
+                        "headline": "Nice stay",
+                        "datepublished": "2024-01-30"
+                    },
+                    {
+                        "datecreated": "2024-01-29",
+                        "reviewbody": "Good location but little pricy",
+                        "headline": "best location",
+                        "datepublished": "2024-01-29"
+                    },
+                    {
+                        "datecreated": "2024-01-25",
+                        "reviewbody": "Marriot Fairfield provided an amazing customer experience from check in, dining and housekeeping. The sincere care for customers shows in the way you get treated. Indrani from housekeeping...",
+                        "headline": "A true experience",
+                        "datepublished": "2024-01-25"
+                    },
+                    {
+                        "datecreated": "2024-01-12",
+                        "reviewbody": "My stay was relaxing and pleasant. Room was clean and all worked properly.All employees at the Poolbar and MoMo Cafe Restaurant were very professional and helpful especially Ahmit, Tenzing,...",
+                        "headline": "Great place to stay in Bengaluru",
+                        "datepublished": "2024-01-12"
+                    },
+                    {
+                        "datecreated": "2023-12-29",
+                        "reviewbody": "Hotel is located at prime location, close to business place. Rooms are large and clean. There were plenty of complementary drinking water in the room. Food quality was good, staffs were courteous...",
+                        "headline": "A decent and comfortable stay",
+                        "datepublished": "2023-12-29"
+                    },
+                    {
+                        "datecreated": "2023-12-24",
+                        "reviewbody": "Comfortable stay at Fairfield. Staff is courteous. Nearby to many corporate offices.",
+                        "headline": "Business_Stay_Bangalore",
+                        "datepublished": "2023-12-24"
+                    },
+                    {
+                        "datecreated": "2023-12-20",
+                        "reviewbody": "Stay Review for Fair Field",
+                        "headline": "Stay Review",
+                        "datepublished": "2023-12-20"
+                    },
+                    {
+                        "datecreated": "2023-12-11",
+                        "reviewbody": "I recently had the pleasure of staying at your esteemed hotel and I felt compelled to extend my sincerest appreciation for the exceptional service provided by two of your staff members, Tanvi...",
+                        "headline": "Great Hotel with Great staff attitude",
+                        "datepublished": "2023-12-11"
+                    },
+                    {
+                        "datecreated": "2023-12-08",
+                        "reviewbody": "Nice place to stay with courteous staff. Good spread with live counters for fresh preparations.",
+                        "headline": "Nice place to stay near Outer Ring Road Bengaluru",
+                        "datepublished": "2023-12-08"
+                    }
+                ],
+                "person": [
+                    {
+                        "name": "Cass"
+                    },
+                    {
+                        "name": "Deepali"
+                    },
+                    {
+                        "name": "Sarvesh"
+                    },
+                    {
+                        "name": "Mark L"
+                    },
+                    {
+                        "name": "Milan"
+                    },
+                    {
+                        "name": "GOUTAM"
+                    },
+                    {
+                        "name": "Abhishek Alladi"
+                    },
+                    {
+                        "name": "Anonymous"
+                    },
+                    {
+                        "name": "GSSSocialProperty"
+                    },
+                    {
+                        "name": "Nitin"
+                    },
+                    {
+                        "name": "Sanjeev"
+                    }
+                ],
+                "hreview": [
+                    {
+                        "dtreviewed": "2024-02-10",
+                        "description": "I recently had long stay in Bengeluru but the staff were all so friendly and accommodating that it truly felt like a home away from home by the end. The food and attention to detail in the..."
+                    },
+                    {
+                        "dtreviewed": "2024-01-30",
+                        "description": "Nice stay . Excellent food and hospitality."
+                    },
+                    {
+                        "dtreviewed": "2024-01-29",
+                        "description": "Good location but little pricy"
+                    },
+                    {
+                        "dtreviewed": "2024-01-25",
+                        "description": "Marriot Fairfield provided an amazing customer experience from check in, dining and housekeeping. The sincere care for customers shows in the way you get treated. Indrani from housekeeping..."
+                    },
+                    {
+                        "dtreviewed": "2024-01-12",
+                        "description": "My stay was relaxing and pleasant. Room was clean and all worked properly.All employees at the Poolbar and MoMo Cafe Restaurant were very professional and helpful especially Ahmit, Tenzing,..."
+                    },
+                    {
+                        "dtreviewed": "2023-12-29",
+                        "description": "Hotel is located at prime location, close to business place. Rooms are large and clean. There were plenty of complementary drinking water in the room. Food quality was good, staffs were courteous..."
+                    },
+                    {
+                        "dtreviewed": "2023-12-24",
+                        "description": "Comfortable stay at Fairfield. Staff is courteous. Nearby to many corporate offices."
+                    },
+                    {
+                        "dtreviewed": "2023-12-20",
+                        "description": "Stay Review for Fair Field"
+                    },
+                    {
+                        "dtreviewed": "2023-12-11",
+                        "description": "I recently had the pleasure of staying at your esteemed hotel and I felt compelled to extend my sincerest appreciation for the exceptional service provided by two of your staff members, Tanvi..."
+                    },
+                    {
+                        "dtreviewed": "2023-12-08",
+                        "description": "Nice place to stay with courteous staff. Good spread with live counters for fresh preparations."
+                    }
+                ],
+                "aggregaterating": [
+                    {
+                        "ratingvalue": "4.4",
+                        "reviewcount": "268",
+                        "bestrating": "5"
+                    },
+                    {
+                        "ratingvalue": "4.4",
+                        "reviewcount": "268",
+                        "bestrating": "5"
+                    }
+                ],
+                "rating": [
+                    {
+                        "ratingvalue": "5",
+                        "bestrating": "5"
+                    },
+                    {
+                        "ratingvalue": "5",
+                        "bestrating": "5"
+                    },
+                    {
+                        "ratingvalue": "4",
+                        "bestrating": "5"
+                    },
+                    {
+                        "ratingvalue": "5",
+                        "bestrating": "5"
+                    },
+                    {
+                        "ratingvalue": "5",
+                        "bestrating": "5"
+                    },
+                    {
+                        "ratingvalue": "5",
+                        "bestrating": "5"
+                    },
+                    {
+                        "ratingvalue": "4",
+                        "bestrating": "5"
+                    },
+                    {
+                        "ratingvalue": "2",
+                        "bestrating": "5"
+                    },
+                    {
+                        "ratingvalue": "5",
+                        "bestrating": "5"
+                    },
+                    {
+                        "ratingvalue": "5",
+                        "bestrating": "5"
+                    }
+                ],
+                "metatags": [
+                    {
+                        "template": "marriott-hws-core-content-page",
+                        "apple-mobile-web-app-status-bar-style": "black",
+                        "bvdatemodified": "2024-02-29",
+                        "viewport": "width=device-width, initial-scale=1",
+                        "apple-mobile-web-app-capable": "yes",
+                        "mobile-web-app-capable": "yes"
+                    }
+                ],
+                "comment": [
+                    {
+                        "datecreated": "2023-12-21",
+                        "text": "Dear Guest,We sincerely apologize the inconvenience caused to you. I will personally address the concerns with the respective teams and corrective measures will be implemented with immediate...",
+                        "datepublished": "2023-12-21"
+                    }
+                ],
+                "individualproduct": [
+                    {
+                        "name": "Fairfield by Marriott Bengaluru Outer Ring Road"
+                    },
+                    {
+                        "name": "Fairfield by Marriott Bengaluru Outer Ring Road"
+                    },
+                    {
+                        "name": "Fairfield by Marriott Bengaluru Outer Ring Road"
+                    },
+                    {
+                        "name": "Fairfield by Marriott Bengaluru Outer Ring Road"
+                    },
+                    {
+                        "name": "Fairfield by Marriott Bengaluru Outer Ring Road"
+                    },
+                    {
+                        "name": "Fairfield by Marriott Bengaluru Outer Ring Road"
+                    },
+                    {
+                        "name": "Fairfield by Marriott Bengaluru Outer Ring Road"
+                    },
+                    {
+                        "name": "Fairfield by Marriott Bengaluru Outer Ring Road"
+                    },
+                    {
+                        "name": "Fairfield by Marriott Bengaluru Outer Ring Road"
+                    },
+                    {
+                        "name": "Fairfield by Marriott Bengaluru Outer Ring Road"
+                    },
+                    {
+                        "name": "Fairfield by Marriott Bengaluru Outer Ring Road"
+                    },
+                    {
+                        "name": "Fairfield by Marriott Bengaluru Outer Ring Road"
+                    }
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "5-Star Hotel in Bangalore | Hyatt Centric MG Road Bangalore",
+            "htmlTitle": "5-Star <b>Hotel</b> in <b>Bangalore</b> | Hyatt Centric MG Road <b>Bangalore</b>",
+            "link": "https://www.hyatt.com/hyatt-centric/blrhy-hyatt-centric-mg-road-bangalore/",
+            "displayLink": "www.hyatt.com",
+            "snippet": "... Contact Us. Corporate Sites. About Us \u00b7 Careers \u00b7 Investor Relations \u00b7 Hyatt ... Hyatt Centric MG Road Bangalore. Map \u00b7 Call \u00b7 4.0. Book. This website uses\u00a0...",
+            "htmlSnippet": "... <b>Contact</b> Us. Corporate Sites. About Us &middot; Careers &middot; Investor Relations &middot; Hyatt ... Hyatt Centric MG Road <b>Bangalore</b>. Map &middot; Call &middot; 4.0. <b>Book</b>. This website uses&nbsp;...",
+            "cacheId": "oQyQO717otQJ",
+            "formattedUrl": "https://www.hyatt.com/hyatt-centric/blrhy-hyatt-centric-mg-road-bangalore/",
+            "htmlFormattedUrl": "https://www.hyatt.com/hyatt-centric/blrhy-hyatt-centric-mg-road-<b>bangalore</b>/",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRSyRUCD9yL1GrcpnOn7H49cFnqurgzsW3HhObVCp-BT6XDTNjssLvv_nM",
+                        "width": "259",
+                        "height": "194"
+                    }
+                ],
+                "thumbnail": [
+                    {
+                        "src": "https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2018/07/06/1102/Hyatt-Centric-MG-Road-Bangalore-P086-Lobby-Check-In.jpg/Hyatt-Centric-MG-Road-Bangalore-P086-Lobby-Check-In.4x3.jpg"
+                    }
+                ],
+                "metatags": [
+                    {
+                        "og:image": "https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2018/07/06/1102/Hyatt-Centric-MG-Road-Bangalore-P086-Lobby-Check-In.jpg/Hyatt-Centric-MG-Road-Bangalore-P086-Lobby-Check-In.4x3.jpg",
+                        "thumbnail": "https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2018/07/06/1102/Hyatt-Centric-MG-Road-Bangalore-P086-Lobby-Check-In.jpg/Hyatt-Centric-MG-Road-Bangalore-P086-Lobby-Check-In.4x3.jpg",
+                        "og:image:alt": "Stay at Hyatt Centric MG Road Bangalore, a 5-star hotel in the heart of Bangalore, India. Enjoy spacious rooms and suites, a 24/7 fitness center, top restaurants, and complimentary Wi-Fi.",
+                        "viewport": "width=device-width",
+                        "og:title": "5-Star Hotel in Bangalore | Hyatt Centric MG Road Bangalore",
+                        "og:url": "https://www.hyatt.com/hyatt-centric/blrhy-hyatt-centric-mg-road-bangalore",
+                        "next-head": "1",
+                        "og:description": "Stay at Hyatt Centric MG Road Bangalore, a 5-star hotel in the heart of Bangalore, India. Enjoy spacious rooms and suites, a 24/7 fitness center, top restaurants, and complimentary Wi-Fi."
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2018/07/06/1102/Hyatt-Centric-MG-Road-Bangalore-P086-Lobby-Check-In.jpg/Hyatt-Centric-MG-Road-Bangalore-P086-Lobby-Check-In.4x3.jpg"
+                    }
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Holiday Inn Express & Suites Bengaluru OMR - Bengaluru,",
+            "htmlTitle": "Holiday Inn Express &amp; Suites <b>Bengaluru</b> OMR - <b>Bengaluru</b>,",
+            "link": "https://www.ihg.com/holidayinnexpress/hotels/us/en/bangalore/blrmr/hoteldetail",
+            "displayLink": "www.ihg.com",
+            "snippet": "Always check the hotel's cancellation policy before booking a rate. ... About IHG IHG Careers IHG Global Brands Hotel Development Need Help? Explore Hotels Email\u00a0...",
+            "htmlSnippet": "Always check the <b>hotel&#39;s</b> cancellation policy before <b>booking</b> a rate. ... About IHG IHG Careers IHG Global Brands <b>Hotel</b> Development Need Help? Explore <b>Hotels Email</b>&nbsp;...",
+            "formattedUrl": "https://www.ihg.com/holidayinnexpress/hotels/us/en/bangalore/.../hoteldetai...",
+            "htmlFormattedUrl": "https://www.ihg.com/holidayinnexpress/<b>hotels</b>/us/en/<b>bangalore</b>/.../hoteldetai...",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQGHbPbhrxltZvMSQvDc3Ji_8pGvDVhrtlvZZJbSQsitJZeGXx_TtUe_Go",
+                        "width": "259",
+                        "height": "194"
+                    }
+                ],
+                "imageobject": [
+                    {
+                        "caption": "All Day Dining"
+                    },
+                    {
+                        "caption": "The Verandah - Al Fresco"
+                    },
+                    {
+                        "caption": "Hotel Facade"
+                    },
+                    {
+                        "caption": "Guest Room"
+                    },
+                    {
+                        "caption": "Guest Room"
+                    },
+                    {
+                        "caption": "Board Room"
+                    },
+                    {
+                        "caption": "Junior Suite Room Without Balcony"
+                    },
+                    {
+                        "caption": "Guest Room"
+                    },
+                    {
+                        "caption": "Guest Room"
+                    },
+                    {
+                        "caption": "Junior Suite Room With Balcony"
+                    },
+                    {
+                        "caption": "Lobby Bar"
+                    },
+                    {
+                        "caption": "Conference Room"
+                    },
+                    {
+                        "caption": "All Day Dining"
+                    },
+                    {
+                        "caption": "The Verandah - Al Fresco"
+                    },
+                    {
+                        "caption": "Hotel Facade"
+                    },
+                    {
+                        "caption": "Guest Room"
+                    },
+                    {
+                        "caption": "Guest Room"
+                    },
+                    {
+                        "caption": "Board Room"
+                    },
+                    {
+                        "caption": "Junior Suite Room Without Balcony"
+                    },
+                    {
+                        "caption": "Guest Room"
+                    },
+                    {
+                        "caption": "Guest Room"
+                    },
+                    {
+                        "caption": "Junior Suite Room With Balcony"
+                    },
+                    {
+                        "caption": "Lobby Bar"
+                    },
+                    {
+                        "caption": "Conference Room"
+                    },
+                    {
+                        "caption": "All Day Dining"
+                    },
+                    {
+                        "caption": "The Verandah - Al Fresco"
+                    }
+                ],
+                "metatags": [
+                    {
+                        "template": "holiday-inn-express-hd-home",
+                        "og:image": "https://digital.ihg.com/is/image/ihg/holiday-inn-express-and-suites-bengaluru-6652888839-4x3",
+                        "apple-itunes-app": "app-id=368217298",
+                        "og:type": "website",
+                        "twitter:card": "summary_large_image",
+                        "twitter:title": "Holiday Inn Express & Suites Bengaluru OMR - Bengaluru,",
+                        "og:site_name": "IHG",
+                        "twitter:domain": "ihg.com",
+                        "og:title": "Holiday Inn Express & Suites Bengaluru OMR - Bengaluru,",
+                        "og:description": "Official site of Holiday Inn Express & Suites Bengaluru OMR. Stay Smart, rest, and recharge at Holiday Inn Express - Best Price Guarantee.",
+                        "twitter:creator": "@holidayinnexpress",
+                        "twitter:image:src": "https://digital.ihg.com/is/image/ihg/holiday-inn-express-and-suites-bengaluru-6652888839-4x3",
+                        "twitter:site": "@IHG",
+                        "viewport": "width=device-width, initial-scale=1",
+                        "twitter:description": "Official site of Holiday Inn Express & Suites Bengaluru OMR. Stay Smart, rest, and recharge at Holiday Inn Express - Best Price Guarantee.",
+                        "og:url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/bangalore/blrmr/hoteldetail",
+                        "format-detection": "telephone=no"
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "https://digital.ihg.com/is/image/ihg/holiday-inn-express-and-suites-bengaluru-6652888839-4x3"
+                    }
+                ],
+                "listitem": [
+                    {
+                        "item": "Home",
+                        "name": "Home",
+                        "position": "1"
+                    },
+                    {
+                        "item": "Bengaluru Hotels",
+                        "name": "Bengaluru Hotels",
+                        "position": "3"
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,11 +1,12 @@
 import React from "react";
 
 export default function Card({ vendor }) {
-  const { name, contacts, source, provider } = vendor;
+  const { name, contacts, source, provider, target } = vendor;
 
   return (
     <div className="border p-4 rounded-md shadow-md hover:shadow-xl">
       <h2 className="text-xl font-semibold">{name}</h2>
+      <div className="text-base text-slate-400 px-1">{target}</div>
       {vendor.info && <p className="text-gray-600">{vendor.info}</p>}
 
       {

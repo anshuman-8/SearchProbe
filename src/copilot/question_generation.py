@@ -41,7 +41,7 @@ def generate_question(query:str, location:str|None):
 
     try :
         response = client.chat.completions.create(
-        model= "gpt-3.5-turbo",
+        model= "gpt-4-1106-preview",
         response_format={ "type": "json_object" },
         
         messages=[
